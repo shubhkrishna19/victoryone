@@ -1,0 +1,1609 @@
+{
+  "generatedAt": "2026-03-11T14:47:48.536Z",
+  "legacyThemeRoot": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone",
+  "sqlDumpPath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone.sql\\victoryone.sql",
+  "sqlDumpExists": true,
+  "files": [
+    {
+      "path": "functions.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\functions.php",
+      "exists": true,
+      "lineCount": 534,
+      "markers": [
+        {
+          "pattern": "<html",
+          "line": 332,
+          "excerpt": "* Adds a `js` class to the root `<html>` element when JavaScript is detected."
+        },
+        {
+          "pattern": "include",
+          "line": 11,
+          "excerpt": "* functions.php file. The child theme's functions.php file is included before"
+        },
+        {
+          "pattern": "require",
+          "line": 41,
+          "excerpt": "require get_template_directory() . '/inc/back-compat.php';"
+        },
+        {
+          "pattern": "require",
+          "line": 507,
+          "excerpt": "require get_template_directory() . '/inc/custom-header.php';"
+        },
+        {
+          "pattern": "require",
+          "line": 514,
+          "excerpt": "require get_template_directory() . '/inc/template-tags.php';"
+        },
+        {
+          "pattern": "require",
+          "line": 521,
+          "excerpt": "require get_template_directory() . '/inc/customizer.php';"
+        }
+      ]
+    },
+    {
+      "path": "header.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\header.php",
+      "exists": true,
+      "lineCount": 55,
+      "markers": [
+        {
+          "pattern": "<html",
+          "line": 14,
+          "excerpt": "<html <?php language_attributes(); ?> class=\"no-js\">"
+        }
+      ]
+    },
+    {
+      "path": "footer.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\footer.php",
+      "exists": true,
+      "lineCount": 30,
+      "markers": []
+    },
+    {
+      "path": "assets/include/header.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\assets\\include\\header.php",
+      "exists": true,
+      "lineCount": 307,
+      "markers": [
+        {
+          "pattern": "require",
+          "line": 260,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\"  name=\"name\" id=\"name\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 263,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" name=\"email\" id=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 266,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" name=\"phone\" maxlength=\"10\" pattern=\"[0-9]{10}\"   id=\"phone\"tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 291,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" name=\"name\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 297,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" name=\"phone\" tabindex=\"3\" required>"
+        }
+      ]
+    },
+    {
+      "path": "assets/include/style.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\assets\\include\\style.php",
+      "exists": true,
+      "lineCount": 22,
+      "markers": []
+    },
+    {
+      "path": "assets/include/script.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\assets\\include\\script.php",
+      "exists": true,
+      "lineCount": 71,
+      "markers": []
+    },
+    {
+      "path": "hometamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\hometamplate.php",
+      "exists": true,
+      "lineCount": 222,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 222,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 10,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 97,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 152,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'8'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 218,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 220,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 160,
+          "excerpt": "<h2><?php echo get_field('abouttitle')?>;</h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 165,
+          "excerpt": "<div class=\"boxprojectBor aboutus-homepage\"><p><?php echo get_field('about'); ?></p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 169,
+          "excerpt": "<div class=\"boxprojectBor\"><img src=\"<?php echo get_field('imageaboutimage'); ?>\" /></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 185,
+          "excerpt": "<?php echo get_field('projectimage'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 200,
+          "excerpt": "<div class=\"col-md-2 infinitye text-center hidden-sm\"><?php echo get_field('image'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 208,
+          "excerpt": "<h3 class=\"mb40 mb-xs-24\"><?php echo get_field('title1');?></h3>"
+        }
+      ]
+    },
+    {
+      "path": "projectamaratamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\projectamaratamplate.php",
+      "exists": true,
+      "lineCount": 552,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 9,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 10,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 552,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 16,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 40,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 255,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'33'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 479,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 507,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 490,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 493,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 496,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 260,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/amara-location-map.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thumb\""
+        },
+        {
+          "pattern": "get_field(",
+          "line": 271,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/amara-site-layout.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thumb\">"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 414,
+          "excerpt": "<?php echo get_field('amenities_&_facilities-detail'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 420,
+          "excerpt": "<?php echo get_field('specifications-detail'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 430,
+          "excerpt": "<!--<h5 class=\"subtitle\">Victoryone<?php echo get_field('Downloade-file'); ?></h5>-->"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 449,
+          "excerpt": "<div class=\"col-md-6 detail-content col-md-offset-3\"> <a href=\"<?php echo get_field('new_tower_launched-file'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 467,
+          "excerpt": "<div class=\"col-md-6\"><a href=\"<?php echo get_field('Download -Brochures'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf-o\"></span> <span class=\"text\">Amara"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 468,
+          "excerpt": "<div class=\"col-md-6\"><a href=\"<?php echo get_field('file-loade'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf-o\"></span> <span class=\"text\">Amara Applicat"
+        }
+      ]
+    },
+    {
+      "path": "project-centraltamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\project-centraltamplate.php",
+      "exists": true,
+      "lineCount": 526,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 526,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 8,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 33,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 270,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'255'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 453,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 481,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 464,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 467,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 470,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 275,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/central-location-map.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thum"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 285,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/central-site-layout.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thumb"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 401,
+          "excerpt": "<?php echo get_field('amenities_&_facilities-title'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 407,
+          "excerpt": "<?php echo get_field('specifications-detail'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 421,
+          "excerpt": "<div class=\"col-md-4 detail-content col-md-offset-4\"> <a href=\"<?php echo get_field('price_list-downloade'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf-o\""
+        },
+        {
+          "pattern": "get_field(",
+          "line": 440,
+          "excerpt": "<a href=\"<?php echo get_field('download_brochures'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf-o\"></span> <span class=\"text\">Central Brouchure.pdf</span>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 442,
+          "excerpt": "<div class=\"col-md-6\"><a href=\"<?php echo get_field('file'); ?>\" class=\"btn-has-icon\" download> <span class=\"icons fa fa-file-pdf-o\"></span> <span class=\"text\">Central Application "
+        }
+      ]
+    },
+    {
+      "path": "Past-project-tamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Past-project-tamplate.php",
+      "exists": true,
+      "lineCount": 591,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 11,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 12,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 8,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 591,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 18,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 21,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 560,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 588,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 571,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 574,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 577,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "category",
+          "line": 51,
+          "excerpt": "<li data-filter=\"*\" data-category=\"all\" class=\"tab active\">"
+        },
+        {
+          "pattern": "category",
+          "line": 54,
+          "excerpt": "<li data-filter=\".residential\" data-category=\"tab-1\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 57,
+          "excerpt": "<li data-filter=\".industrial\" data-category=\"tab-2\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 60,
+          "excerpt": "<li data-filter=\".health-care\" data-category=\"tab-3\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 63,
+          "excerpt": "<li data-filter=\".energy\" data-category=\"tab-4\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 66,
+          "excerpt": "<li data-filter=\".infraStructure\" data-category=\"tab-5\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 69,
+          "excerpt": "<li data-filter=\".nuclear-power\" data-category=\"tab-6\" class=\"tab\">"
+        },
+        {
+          "pattern": "category",
+          "line": 72,
+          "excerpt": "<li data-filter=\".government\" data-category=\"tab-7\" class=\"tab\">"
+        }
+      ]
+    },
+    {
+      "path": "awardtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\awardtamplate.php",
+      "exists": true,
+      "lineCount": 388,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 11,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 12,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 388,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 18,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 21,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 357,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 385,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 368,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 371,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 374,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 317,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        }
+      ]
+    },
+    {
+      "path": "Eventtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Eventtamplate.php",
+      "exists": true,
+      "lineCount": 417,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 417,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 9,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 12,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 387,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 415,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 398,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 401,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 404,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 87,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 47,
+          "excerpt": "<h2 class=\"title\"><?php echo get_field('event-title'); ?> </h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 50,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('event-detail'); ?>. </p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 57,
+          "excerpt": "<h2><?php echo get_field('subtitle');?></h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 60,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('subdetail'); ?>. </p>"
+        }
+      ]
+    },
+    {
+      "path": "Contacttamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Contacttamplate.php",
+      "exists": true,
+      "lineCount": 197,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 10,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 11,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 196,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 17,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 20,
+          "excerpt": "<?php include('assets/include/header.php'); ?><div class=\"body-wrapper\">"
+        },
+        {
+          "pattern": "include",
+          "line": 186,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 188,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 190,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 151,
+          "excerpt": "<input type=\"text\" placeholder=\"Name\" name=\"name\" class=\"form-control\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 152,
+          "excerpt": "<input type=\"email\" placeholder=\"Email Address\" name=\"email\" class=\"form-control\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 153,
+          "excerpt": "<input type=\"text\" placeholder=\"Phone \" name=\"phone\"  maxlength=\"10\" pattern=\"[0-9]{10}\" class=\"form-control\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 154,
+          "excerpt": "<textarea placeholder=\"Message\" class=\"form-control\" required></textarea>"
+        }
+      ]
+    },
+    {
+      "path": "career.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\career.php",
+      "exists": true,
+      "lineCount": 125,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 9,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 10,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 125,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 16,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 25,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 58,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'18'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 90,
+          "excerpt": "<?php include('assets/include/counter.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 94,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 122,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 105,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 108,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 111,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 63,
+          "excerpt": "<h2><?php echo get_field('career_title'); ?></h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 67,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify\"><?php echo get_field('career_contain'); ?></p>"
+        },
+        {
+          "pattern": "category",
+          "line": 71,
+          "excerpt": "<?php echo do_shortcode('[jobpost posts=\"10\" category=\"\" type=\"\" location=\"\" search=\"false\"]')?>"
+        }
+      ]
+    },
+    {
+      "path": "faqtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\faqtamplate.php",
+      "exists": true,
+      "lineCount": 168,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 10,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 11,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 8,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 168,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 17,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 20,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 53,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'23'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 137,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 165,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 148,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 151,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 154,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 57,
+          "excerpt": "<h4><?php echo get_field('faqtitle'); ?></h4>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 61,
+          "excerpt": "<div id=\"accordion-heading-1\" role=\"tab\" class=\"panel-heading\"><?php echo get_field('whytitle'); ?></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 63,
+          "excerpt": "<div class=\"panel-body\"><p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('whycontain'); ?>. </p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 68,
+          "excerpt": "<div id=\"accordion-heading-2\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('aretitle'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 70,
+          "excerpt": "<div class=\"panel-body\"> <p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('are_contain'); ?></p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 74,
+          "excerpt": "<div id=\"accordion-heading-3\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('arefolowingtitle'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 76,
+          "excerpt": "<div class=\"panel-body\"> <p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('following_detail'); ?>. </p></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 80,
+          "excerpt": "<div id=\"accordion-heading-4\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('whattitle'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 82,
+          "excerpt": "<div class=\"panel-body\"> <p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('what_detail'); ?>. </p></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 86,
+          "excerpt": "<div id=\"accordion-heading-5\" role=\"tab\" class=\"panel-heading\">  <?php echo get_field('finecial-title'); ?></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 88,
+          "excerpt": "<div class=\"panel-body\"> <p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('finecial-detail'); ?>. </p>.</div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 92,
+          "excerpt": "<div id=\"accordion-heading-6\" role=\"tab\" class=\"panel-heading\"><?php echo get_field('built-title'); ?>  </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 94,
+          "excerpt": "<div class=\"panel-body\"> <p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('built-detail'); ?>. </p></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 98,
+          "excerpt": "<div id=\"accordion-heading-7\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('what-titles'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 100,
+          "excerpt": "<div class=\"panel-body\"><p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('whatdetails'); ?>. </p></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 104,
+          "excerpt": "<div id=\"accordion-heading-8\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('what_is_the_amount-title'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 106,
+          "excerpt": "<div class=\"panel-body\"><p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('what_is_the_amount-detail'); ?>. </p>.</div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 110,
+          "excerpt": "<div id=\"accordion-heading-9\" role=\"tab\" class=\"panel-heading\"><?php echo get_field('can_the_properties-title'); ?>  </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 112,
+          "excerpt": "<div class=\"panel-body\"><p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('can_the_properties-detail'); ?>. </p>.</div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 116,
+          "excerpt": "<div id=\"accordion-heading-10\" role=\"tab\" class=\"panel-heading\"><?php echo get_field('what_is_the_loan-title'); ?>   </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 118,
+          "excerpt": "<div class=\"panel-body\"><p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('what_is_the_loan-detail'); ?>. </p></div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 122,
+          "excerpt": "<div id=\"accordion-heading-11\" role=\"tab\" class=\"panel-heading\"> <?php echo get_field('on_what_basis-title'); ?> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 124,
+          "excerpt": "<div class=\"panel-body\"><?php echo get_field('on_what_basis-detail'); ?></div>"
+        }
+      ]
+    },
+    {
+      "path": "Teamtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Teamtamplate.php",
+      "exists": true,
+      "lineCount": 200,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 8,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 9,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 200,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 15,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 18,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 50,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'16'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 164,
+          "excerpt": "<?php include('assets/include/counter.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 168,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 196,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 179,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 182,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 185,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 54,
+          "excerpt": "<h2 ><?php echo get_field('main_headind'); ?> </h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 60,
+          "excerpt": "<h4 class=\"title team-name\"><?php echo get_field('title'); ?></h4>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 61,
+          "excerpt": "<h6 class=\"digenation\"><?php echo get_field('subtitle'); ?></h6>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 62,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('team_detail'); ?>. </p><br>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 67,
+          "excerpt": "<div class=\"team-page-img\"> <img src=\"<?php echo get_field('team-image'); ?>\" alt=\"\" class=\"\"> </div>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 70,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify;\"><?php echo get_field('description'); ?>. </p>"
+        }
+      ]
+    },
+    {
+      "path": "message-form-chairmantamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\message-form-chairmantamplate.php",
+      "exists": true,
+      "lineCount": 214,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 214,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 9,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 12,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 41,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'10'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 174,
+          "excerpt": "<?php include('assets/include/counter.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 178,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 211,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 189,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 192,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 195,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 51,
+          "excerpt": "<h2><?php echo get_field('messagetitle'); ?> </h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 58,
+          "excerpt": "<img src=\"<?php echo get_field('chairmenimage'); ?>\" alt=\"\" class=\"\">"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 63,
+          "excerpt": "<h4 class=\"title team-name\"> <?php echo get_field('headingtitle'); ?></h4>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 64,
+          "excerpt": "<h6 class=\"digenation\"> <?php echo get_field('manessertitle'); ?></h6>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 73,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify\"><?php echo get_field('messagedetail'); ?></p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 78,
+          "excerpt": "<h4 class=\"title team-name\"><?php echo get_field('abouttitle'); ?></h4>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 79,
+          "excerpt": "<?php echo get_field('aboutdetail'); ?>"
+        }
+      ]
+    },
+    {
+      "path": "Mdintriviewstamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Mdintriviewstamplate.php",
+      "exists": true,
+      "lineCount": 148,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 10,
+          "excerpt": "<!DOCTYPE html>"
+        },
+        {
+          "pattern": "<html",
+          "line": 11,
+          "excerpt": "<html lang=\"en\">"
+        },
+        {
+          "pattern": "get_header(",
+          "line": 8,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 148,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 17,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 20,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 54,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'25'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 112,
+          "excerpt": "<?php include('assets/include/counter.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 116,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 144,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 127,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 130,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 133,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 58,
+          "excerpt": "<h2><?php echo get_field('md_interview-title'); ?> </h2>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 61,
+          "excerpt": "<p class=\"description\" style=\"text-align:justify\"><?php echo get_field('md_interview-detail'); ?></p>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 104,
+          "excerpt": "<?php echo get_field('md-video'); ?>"
+        }
+      ]
+    },
+    {
+      "path": "Newspapapertamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\Newspapapertamplate.php",
+      "exists": true,
+      "lineCount": 111,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 8,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 111,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 12,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 15,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 107,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 110,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 73,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        }
+      ]
+    },
+    {
+      "path": "single.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\single.php",
+      "exists": true,
+      "lineCount": 146,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 10,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 146,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 13,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 16,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 142,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 145,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 106,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "category",
+          "line": 12,
+          "excerpt": "<?php  $catName\t=\t get_the_category(); ?>"
+        }
+      ]
+    },
+    {
+      "path": "central-commercialtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\central-commercialtamplate.php",
+      "exists": true,
+      "lineCount": 203,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 203,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 9,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 12,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 42,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'31'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 200,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 183,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 186,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 189,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 107,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 145,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 46,
+          "excerpt": "<?php echo get_field('central-detail'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 57,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/gf-commercial.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thumb\"> <im"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 67,
+          "excerpt": "<div class=\"block-image-gallery\"> <a href=\"<?php bloginfo('template_directory');?>/assets/images/post/ff-commercial.jpg\" data-fancybox-group=\"gallery-3\" class=\"fancybox-thumb\"> <im"
+        }
+      ]
+    },
+    {
+      "path": "amara-comercialtamplate.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\amara-comercialtamplate.php",
+      "exists": true,
+      "lineCount": 245,
+      "markers": [
+        {
+          "pattern": "get_header(",
+          "line": 7,
+          "excerpt": "get_header(); ?>"
+        },
+        {
+          "pattern": "get_footer(",
+          "line": 245,
+          "excerpt": "<?php get_footer(); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 8,
+          "excerpt": "<?php include('assets/include/style.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 11,
+          "excerpt": "<?php include('assets/include/header.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 41,
+          "excerpt": "$args = array('post_type' => 'page', 'include'=>'200'); // 15 local 8 // server"
+        },
+        {
+          "pattern": "include",
+          "line": 216,
+          "excerpt": "<?php include('assets/include/footer.php'); ?>"
+        },
+        {
+          "pattern": "include",
+          "line": 244,
+          "excerpt": "<?php include('assets/include/script.php'); ?>"
+        },
+        {
+          "pattern": "require",
+          "line": 227,
+          "excerpt": "<input placeholder=\"Your Name\" type=\"text\" tabindex=\"1\" required autofocus>"
+        },
+        {
+          "pattern": "require",
+          "line": 230,
+          "excerpt": "<input placeholder=\"Your Email Address\" type=\"email\" tabindex=\"2\" required>"
+        },
+        {
+          "pattern": "require",
+          "line": 233,
+          "excerpt": "<input placeholder=\"Your Phone Number\" type=\"tel\" tabindex=\"3\" required>"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 154,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "WP_Query",
+          "line": 187,
+          "excerpt": "$the_query_side = new WP_Query( $args ); wp_reset_query();"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 45,
+          "excerpt": "<?php echo get_field('victory-detail'); ?>"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 57,
+          "excerpt": "<img src=\"<?php echo get_field('image1'); ?> \" alt=\"\" class=\"img-full\">"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 73,
+          "excerpt": "<img src=\"<?php echo get_field('img2'); ?> \" alt=\"\" class=\"img-full\">"
+        },
+        {
+          "pattern": "get_field(",
+          "line": 89,
+          "excerpt": "<img src=\"<?php echo get_field('images3'); ?> \" alt=\"\" class=\"img-full\">"
+        }
+      ]
+    },
+    {
+      "path": "process.php",
+      "absolutePath": "C:\\Users\\shubh\\Downloads\\V1\\victoryone-backup (1)\\wp-content\\themes\\vctryone\\process.php",
+      "exists": true,
+      "lineCount": 295,
+      "markers": [
+        {
+          "pattern": "<!DOCTYPE",
+          "line": 33,
+          "excerpt": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">"
+        },
+        {
+          "pattern": "<html",
+          "line": 34,
+          "excerpt": "<html xmlns:v=\"urn:schemas-microsoft-com:vml\">"
+        },
+        {
+          "pattern": "require",
+          "line": 21,
+          "excerpt": "$requirement = '<tr>"
+        },
+        {
+          "pattern": "require",
+          "line": 27,
+          "excerpt": "$requirement = '';"
+        },
+        {
+          "pattern": "require",
+          "line": 252,
+          "excerpt": "'.$requirement.'"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 9,
+          "excerpt": "if(isset($_POST['finance'])){"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 11,
+          "excerpt": "}else if(isset($_POST['contact'])){"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 13,
+          "excerpt": "}else if(isset($_POST['projectEnquiry'])){"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 17,
+          "excerpt": "$name = $_POST['name'];"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 18,
+          "excerpt": "$phone = $_POST['phone'];"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 19,
+          "excerpt": "$email = $_POST['email'];"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 20,
+          "excerpt": "if(isset($_POST['message'])){"
+        },
+        {
+          "pattern": "$_POST",
+          "line": 24,
+          "excerpt": "<td style=\"text-align:left; padding-left:10px; padding-right:10px; padding-top:10px; color:#333; vertical-align:top; text-align:justify;\"> '.$_POST['message'].'</td>"
+        },
+        {
+          "pattern": "mail(",
+          "line": 289,
+          "excerpt": "if(mail($to,$subject,$message,$headers)){"
+        },
+        {
+          "pattern": "die;",
+          "line": 2,
+          "excerpt": "die;"
+        }
+      ]
+    }
+  ]
+}

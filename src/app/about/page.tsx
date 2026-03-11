@@ -1,0 +1,96 @@
+import type { Metadata } from "next";
+
+import { Container } from "@/components/core/Container";
+import { Section } from "@/components/core/Section";
+import { ContextualCTA } from "@/components/sections/shared/ContextualCTA";
+import { FAQAccordion } from "@/components/sections/shared/FAQAccordion";
+import { RouteHero } from "@/components/sections/shared/RouteHero";
+import { aboutNarrative, finalCta, routeCopy } from "@/content/site";
+import { faqs } from "@/content/faqs";
+import { homeProof } from "@/content/site";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = buildMetadata({
+  title: "About VictoryOne | Legacy, mission, vision, and CSR",
+  description:
+    "Audited introduction, mission, vision, core values, and CSR content from VictoryOne rebuilt into a modern and accessible route.",
+  path: "/about",
+  image: "/legacy/theme-images/about1.jpg",
+});
+
+export default function AboutPage() {
+  return (
+    <>
+      <RouteHero
+        eyebrow={routeCopy.about.eyebrow}
+        title={routeCopy.about.title}
+        description={routeCopy.about.description}
+        image="/legacy/theme-images/about1.jpg"
+        primaryCta={{ label: "Review Projects", href: "/projects", ctaId: "about-projects" }}
+        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "about-contact" }}
+      />
+      <Section>
+        <Container className="grid gap-6 lg:grid-cols-2">
+          <article className="panel">
+            <p className="eyebrow">Introduction</p>
+            <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.introduction}</p>
+            <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.continuation}</p>
+          </article>
+          <article className="panel">
+            <p className="eyebrow">Mission and Vision</p>
+            <h2 className="mt-3 text-2xl font-semibold text-foreground">Operational excellence with affordable delivery.</h2>
+            <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.mission}</p>
+            <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.vision}</p>
+          </article>
+        </Container>
+      </Section>
+      <Section tone="surface">
+        <Container className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+          <article className="panel">
+            <p className="eyebrow">Core Values</p>
+            <ul className="mt-4 grid gap-3 text-sm leading-7 text-foreground-muted">
+              {aboutNarrative.coreValues.map((value) => (
+                <li key={value}>{value}</li>
+              ))}
+            </ul>
+          </article>
+          <article id="csr" className="panel">
+            <p className="eyebrow">CSR</p>
+            <ul className="mt-4 grid gap-3 text-sm leading-7 text-foreground-muted">
+              {aboutNarrative.csr.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </article>
+        </Container>
+      </Section>
+      <Section>
+        <Container className="panel grid gap-4 md:grid-cols-4">
+          {homeProof.stats.map((stat) => (
+            <div key={stat.label}>
+              <p className="text-3xl font-semibold text-foreground">{stat.value}</p>
+              <p className="mt-2 text-sm text-foreground-muted">{stat.label}</p>
+            </div>
+          ))}
+        </Container>
+      </Section>
+      <ContextualCTA
+        eyebrow="Conversion Path"
+        title="Use the verified group narrative to shortlist the right project."
+        description="Move next into the live project archive or open a direct enquiry if you already know which team or project context matters."
+        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "about-cta-projects" }}
+        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "about-cta-contact" }}
+        sectionId="about.cta"
+      />
+      <FAQAccordion items={faqs.slice(0, 4)} />
+      <ContextualCTA
+        eyebrow={finalCta.eyebrow}
+        title={finalCta.title}
+        description={finalCta.description}
+        primaryCta={finalCta.primaryCta}
+        secondaryCta={finalCta.secondaryCta}
+        sectionId="about.finalCta"
+      />
+    </>
+  );
+}
