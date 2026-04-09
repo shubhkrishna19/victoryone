@@ -144,7 +144,7 @@ export function EnquiryForm({
           <option value="project">A specific project</option>
           <option value="business">Business or partnership enquiry</option>
         </Select>
-        <Select label="Business context" {...register("businessId")} error={errors.businessId?.message}>
+        <Select label="Business" {...register("businessId")} error={errors.businessId?.message}>
           <option value="">Choose a business</option>
           {businesses.map((business) => (
             <option key={business.id} value={business.id}>

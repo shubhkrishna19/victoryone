@@ -120,7 +120,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 ))
               ) : (
                 <p className="text-sm leading-7 text-foreground-muted">
-                  No brochure or price list is currently published for this project. Use the enquiry form below to request the latest material.
+                  No brochure or price list is available on this page right now. Use the enquiry form below to request the latest material.
                 </p>
               )}
             </div>
@@ -139,7 +139,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <Heading
             eyebrow="Gallery"
             title="Project gallery"
-            description="Browse the visuals currently published for this project, including renders, site images, and sample-flat views where available."
+            description="Browse the visuals available for this project, including renders, site images, and sample-flat views where available."
           />
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {project.gallery.map((image, index) => (
@@ -173,7 +173,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <Heading
             eyebrow="Related Projects"
             title="Compare related projects"
-            description="If you are still evaluating options, review other VictoryOne projects from the same portfolio."
+            description="If you are still evaluating options, review other VictoryOne projects from the same collection."
           />
             <div className="grid gap-6 lg:grid-cols-3">
               {relatedProjects.map((related) => (

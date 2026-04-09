@@ -21,7 +21,7 @@ export function BusinessGrid() {
         <Heading
           eyebrow="Business Overview"
           title="One brand, spanning homes and commercial offerings."
-          description="VictoryOne currently brings its residential projects, commercial inventory, and contact options together through one group profile."
+          description="VictoryOne brings its residential projects, commercial spaces, and contact options together through one group profile."
         />
         <div className="grid gap-6">
           {businesses.map((business) => (

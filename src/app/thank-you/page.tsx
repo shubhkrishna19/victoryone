@@ -64,7 +64,7 @@ export default async function ThankYouPage({ searchParams }: ThankYouPageProps) 
                 Explore Projects
               </Button>
               <Button href="/leadership" ctaId="thank-you-review-leadership" sectionId="thank-you" variant="ghost">
-                Review Leadership
+                Meet Leadership
               </Button>
               <Button href="/contact" ctaId="thank-you-contact-again" sectionId="thank-you" variant="ghost">
                 Return to Contact

@@ -116,8 +116,8 @@ export default function CareersPage() {
       </Section>
       <ContextualCTA
         eyebrow="Before You Apply"
-        title="Want more context before you apply?"
-        description="Meet the leadership team, browse the projects, or contact VictoryOne if you want more context before sending your application."
+        title="Want more background before you apply?"
+        description="Meet the leadership team, browse the projects, or contact VictoryOne if you want more background before sending your application."
         primaryCta={{ label: "Meet Leadership", href: "/leadership", ctaId: "careers-cta-leadership" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "careers-cta-contact" }}
         sectionId="careers.cta"

@@ -11,5 +11,5 @@ test("home-to-project-detail-to-enquiry", async ({ page }) => {
 
 test("business-page-context-prefill", async ({ page }) => {
   await page.goto("/businesses/victoryone-group");
-  await expect(page.getByLabel("Business context")).toHaveValue("victoryone-group");
+  await expect(page.locator('select[name="businessId"]')).toHaveValue("victoryone-group");
 });
