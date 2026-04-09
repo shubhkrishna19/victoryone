@@ -39,7 +39,7 @@ export default function ContactPage() {
             <p className="eyebrow">Email</p>
             <p className="mt-3 text-lg font-semibold text-foreground">{globalSettings.email}</p>
             <p className="mt-3 text-sm leading-7 text-foreground-muted">
-              Use the form below to send your enquiry to the right team. Direct email remains available if you prefer manual follow-up.
+              Use the form below to send your enquiry to the right team. Direct email remains available if you prefer to follow up manually.
             </p>
           </article>
           <article className="panel">
@@ -56,7 +56,7 @@ export default function ContactPage() {
           <article className="panel">
             <p className="eyebrow">How We Respond</p>
             <p className="mt-3 text-sm leading-7 text-foreground-muted">
-              Choose the option that matches your need and your enquiry will reach the right team with the relevant project or business context.
+              Choose the option that matches your need and your enquiry will reach the right team with the relevant project or business details.
             </p>
             <p className="mt-3 text-sm leading-7 text-foreground-muted">
               We use these details only to review your request and respond to you.
@@ -77,7 +77,7 @@ export default function ContactPage() {
               <Heading
                 eyebrow="Quick Callback"
                 title="Prefer a phone conversation?"
-                description="Use the shorter callback form when you already know you want a call back. It follows the same validation and anti-spam protections as the main enquiry form."
+                description="Use the shorter callback form if you already know you want a call back. It follows the same validation and anti-spam protections as the main enquiry form."
               />
             </article>
             <article className="panel">
@@ -91,7 +91,7 @@ export default function ContactPage() {
           <Heading
             eyebrow="Offices"
             title="Corporate office and project locations"
-            description="Corporate and project offices are listed here so visitors can find the right location without searching across multiple pages."
+            description="Corporate and project offices are listed here so you can find the right location without searching across multiple pages."
           />
           <div className="grid gap-6 lg:grid-cols-3">
             {globalSettings.offices.map((office) => (

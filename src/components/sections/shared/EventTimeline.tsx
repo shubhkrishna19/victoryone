@@ -17,8 +17,8 @@ export function EventTimeline({ events }: EventTimelineProps) {
       <Container className="space-y-10">
         <Heading
           eyebrow="Event Timeline"
-          title="Event archive"
-          description="Review archived event photographs in chronological order, with the date kept visible on each entry."
+        title="Event gallery"
+        description="Review event photographs in chronological order, with the date kept visible on each entry."
         />
         <div className="grid gap-6">
           {events.map((event) => (

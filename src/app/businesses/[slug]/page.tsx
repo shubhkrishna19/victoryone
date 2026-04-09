@@ -108,7 +108,7 @@ export default async function BusinessDetailPage({ params }: PageProps) {
           <Heading
             eyebrow="Featured Projects"
             title="Current projects connected to this business"
-            description="These project pages connect the business profile to the active residential and commercial portfolio."
+            description="These project pages connect the business profile to the current residential and commercial projects."
           />
           <div className="grid gap-6 lg:grid-cols-2">
             {featuredProjects.map((project) => (
@@ -126,8 +126,8 @@ export default async function BusinessDetailPage({ params }: PageProps) {
           <article className="panel">
             <Heading
               eyebrow="Business Enquiry"
-              title="Start a direct conversation with the right business context."
-              description="The form below preselects this business so the team can see the right context immediately."
+              title="Start a direct conversation with the right business selected."
+              description="The form below preselects this business so the team can see your focus area immediately."
             />
           </article>
           <EnquiryForm sectionId="business.detail.form" defaultEnquiryType="business" defaultBusinessId={business.id} />

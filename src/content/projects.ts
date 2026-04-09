@@ -233,7 +233,7 @@ const pastProjects: Project[] = pastProjectSeed.map(
     status: "completed",
     segment,
     location,
-    overview: `${name} is included in VictoryOne's delivered portfolio with location and approximate size details.`,
+    overview: `${name} is included in VictoryOne's earlier delivery record with location and approximate size details.`,
     highlights: [location, `Approx. Size: ${sizeLabel}`],
     gallery: [`/legacy/theme-images/post/${image}`],
     downloads: [],

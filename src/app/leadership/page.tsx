@@ -21,7 +21,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Leadership | VictoryOne chairman, MD perspective, and expert team",
   description:
-    "VictoryOne leadership, managing director perspective, and expert team structure presented for trust and project context.",
+    "VictoryOne leadership, managing director perspective, and expert team structure presented to help visitors understand the company behind the projects.",
   path: "/leadership",
   image: chairmanMessage.image,
 });
@@ -105,7 +105,7 @@ export default function LeadershipPage() {
         <Container className="space-y-8">
           <Heading
             eyebrow="Timeline"
-            title="Leadership context across the delivery timeline"
+              title="Leadership across the delivery timeline"
             description="The timeline below connects the leadership story to the wider company and project record."
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
@@ -121,7 +121,7 @@ export default function LeadershipPage() {
       <ContextualCTA
         eyebrow="Next Step"
         title="Use the leadership overview to move into projects or contact."
-        description="If the leadership context gave you confidence, the next step is to review the current portfolio or speak with the team directly."
+        description="If the leadership story gave you confidence, the next step is to review the current projects or speak with the team directly."
         primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "leadership-cta-projects" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "leadership-cta-contact" }}
         sectionId="leadership.cta"

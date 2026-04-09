@@ -32,7 +32,7 @@ export default function FaqPage() {
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{faqs.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Questions currently covered in the site FAQ</p>
+            <p className="mt-2 text-sm text-foreground-muted">Questions covered in the site FAQ</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Finance</p>

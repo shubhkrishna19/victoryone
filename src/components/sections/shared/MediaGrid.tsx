@@ -18,7 +18,7 @@ export function MediaGrid({ media }: MediaGridProps) {
         <Heading
           eyebrow="Press References"
           title="Press references"
-          description="Review newspaper and magazine references with the publication name and archive date visible on every card."
+        description="Review newspaper and magazine references with the publication name and original date visible on every card."
         />
         <div className="grid gap-6 lg:grid-cols-3">
           {media.map((item) => (

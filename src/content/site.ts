@@ -66,7 +66,7 @@ export const routeCopy = {
   },
   careers: {
     eyebrow: "Careers",
-    title: "Current openings and direct access to the hiring team.",
+    title: "Current openings and how to apply.",
     description:
       "Review open roles, interview details, and the fastest way to apply.",
   },
