@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 import { Button } from "@/components/core/Button";
 import { Container } from "@/components/core/Container";
@@ -15,7 +15,7 @@ type ThankYouPageProps = {
 export const metadata: Metadata = buildMetadata({
   title: "Thank You | VictoryOne",
   description:
-    "VictoryOne confirmation route for enquiries and applications submitted through the website.",
+    "Confirmation page for enquiries and applications submitted through the VictoryOne website.",
   path: "/thank-you",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -33,8 +33,8 @@ export default async function ThankYouPage({ searchParams }: ThankYouPageProps) 
   const type = resolveType(params.type);
   const message =
     type === "career"
-      ? "Your application has been routed into the VictoryOne hiring flow."
-      : "Your enquiry has been routed into the VictoryOne response flow.";
+      ? "Your application has been received by the VictoryOne hiring team."
+      : "Your enquiry has been received by the VictoryOne team.";
 
   return (
     <>
@@ -43,7 +43,7 @@ export default async function ThankYouPage({ searchParams }: ThankYouPageProps) 
         title={routeCopy.thankYou.title}
         description={routeCopy.thankYou.description}
         image="/legacy/theme-images/about1.jpg"
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "thank-you-projects" }}
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "thank-you-projects" }}
         secondaryCta={{ label: "Back to Contact", href: "/contact", ctaId: "thank-you-contact" }}
       />
       <Section>
@@ -51,14 +51,14 @@ export default async function ThankYouPage({ searchParams }: ThankYouPageProps) 
           <article className="panel">
             <h2 className="text-2xl font-semibold text-foreground">{message}</h2>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">
-              A team member can now review your submission and respond through the contact information you shared.
+              A team member will review your submission and respond using the contact information you shared.
             </p>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">
               If you prefer direct follow-up, use {globalSettings.email} or {globalSettings.phones.join(" | ")}.
             </p>
           </article>
           <article className="panel">
-            <p className="eyebrow">Next Actions</p>
+            <p className="eyebrow">What&apos;s Next</p>
             <div className="mt-5 grid gap-3">
               <Button href="/projects" ctaId="thank-you-explore-projects" sectionId="thank-you" variant="secondary">
                 Explore Projects

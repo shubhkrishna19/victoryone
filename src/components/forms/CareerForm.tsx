@@ -105,14 +105,14 @@ export function CareerForm({ sectionId, defaultJobId, successHref }: CareerFormP
       onSubmit={onSubmit}
     >
       <div aria-live="polite" className="text-sm text-foreground-muted">
-        Use this form to send a structured application directly to the current VictoryOne hiring contact.
+        Share your details and the hiring team will review your application for the selected role.
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         <Input label="Full name" autoComplete="name" {...register("name")} error={errors.name?.message} />
         <Input label="Email address" autoComplete="email" {...register("email")} error={errors.email?.message} />
         <Input label="Phone number" autoComplete="tel" {...register("phone")} error={errors.phone?.message} />
         <Select label="Role" {...register("jobId")} error={errors.jobId?.message}>
-          <option value="">Select role</option>
+          <option value="">Select a role</option>
           {jobs.map((job) => (
             <option key={job.id} value={job.id}>
               {job.title}
@@ -120,12 +120,13 @@ export function CareerForm({ sectionId, defaultJobId, successHref }: CareerFormP
           ))}
         </Select>
         <Input label="Current location" {...register("currentLocation")} error={errors.currentLocation?.message} />
-        <Input label="Experience summary" {...register("experienceLevel")} error={errors.experienceLevel?.message} />
+        <Input label="Relevant experience" {...register("experienceLevel")} error={errors.experienceLevel?.message} />
       </div>
       <TextArea
-        label="Why are you a fit for VictoryOne?"
+        label="Tell us briefly why this role fits your experience"
         {...register("message")}
         error={errors.message?.message}
+        helper="Share your relevant experience, strengths, and interest in the role."
       />
       <input type="hidden" tabIndex={-1} autoComplete="off" {...register("honeypot")} />
       <input type="hidden" {...register("route")} />
@@ -134,21 +135,21 @@ export function CareerForm({ sectionId, defaultJobId, successHref }: CareerFormP
       <input type="hidden" {...register("campaign")} />
       <label className="flex items-start gap-3 text-sm text-foreground-muted">
         <input className="mt-1 h-4 w-4" type="checkbox" {...register("consent")} />
-        <span>I agree that VictoryOne may use these details for hiring communication.</span>
+        <span>I agree that VictoryOne may use these details to review my application and contact me about hiring.</span>
       </label>
       {errors.consent?.message ? <p className="field-error">{errors.consent.message}</p> : null}
       {!submitState?.success && "fieldErrors" in (submitState ?? {}) && submitState?.fieldErrors ? (
         <div className="rounded-2xl border border-danger/20 bg-danger/5 px-4 py-3 text-sm text-danger" aria-live="polite">
-          Please review the highlighted fields and submit again.
+          Please review the highlighted fields and try again.
         </div>
       ) : null}
       {submitState?.success ? (
         <div className="rounded-2xl border border-success/20 bg-success/5 px-4 py-3 text-sm text-success">
-          {submitState.message} If you prefer direct follow-up, the listed hiring contact is `priyanka.victoryone@gmail.com`.
+          Your application has been received. If your profile is shortlisted, the hiring team will contact you using the details above.
         </div>
       ) : null}
       <Button type="submit" ctaId={`${sectionId}-submit`} sectionId={sectionId} disabled={isSubmitting}>
-        {isSubmitting ? "Submitting Application" : "Apply Now"}
+        {isSubmitting ? "Submitting Application" : "Submit Application"}
       </Button>
     </form>
   );

@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!project) {
     return buildMetadata({
       title: "Project not found | VictoryOne",
-      description: "The requested VictoryOne project route could not be found.",
+      description: "The requested VictoryOne project could not be found.",
       path: `/projects/${slug}`,
     });
   }
@@ -62,12 +62,12 @@ export default async function ProjectDetailPage({ params }: PageProps) {
     <>
       <ProjectDetailTracker projectId={project.id} />
       <RouteHero
-        eyebrow="Project Detail"
+        eyebrow="Project"
         title={project.name}
         description={project.overview}
         image={project.heroImage}
-        primaryCta={{ label: "Send Enquiry", href: `/contact?project=${project.id}`, ctaId: "project-contact" }}
-        secondaryCta={{ label: "Review All Projects", href: "/projects", ctaId: "project-all-projects" }}
+        primaryCta={{ label: "Enquire on This Project", href: `/contact?project=${project.id}`, ctaId: "project-contact" }}
+        secondaryCta={{ label: "View All Projects", href: "/projects", ctaId: "project-all-projects" }}
       />
       <Section>
         <Container className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
@@ -100,8 +100,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <article className="panel">
             <Heading
               eyebrow="Downloads and Compliance"
-              title="Brochures, price lists, and route-specific trust markers"
-              description="Download links are surfaced only where the site has a verified brochure, application form, or price-list file attached to the project."
+              title="Brochures, pricing, and key project details"
+              description="Download the latest brochure or price list where available. If a file is not listed, request it directly from the team."
             />
             <div className="mt-6 grid gap-3">
               {project.downloads.length ? (
@@ -120,7 +120,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 ))
               ) : (
                 <p className="text-sm leading-7 text-foreground-muted">
-                  No downloadable brochure or price-list file is currently attached to this project record.
+                  No brochure or price list is currently published for this project. Use the enquiry form below to request the latest material.
                 </p>
               )}
             </div>
@@ -138,8 +138,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
         <Container className="space-y-8">
           <Heading
             eyebrow="Gallery"
-            title="Hero media, sample visuals, and project imagery"
-            description="The gallery brings together the visuals available for this project in a cleaner review format."
+            title="Project gallery"
+            description="Browse the visuals currently published for this project, including renders, site images, and sample-flat views where available."
           />
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {project.gallery.map((image, index) => (
@@ -155,8 +155,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <article className="panel">
             <Heading
               eyebrow="Project Enquiry"
-              title="Carry the project route into the enquiry payload."
-              description="The form below preselects this project so the team receives the right context immediately."
+              title="Enquire on this project"
+              description="The form below keeps this project preselected so your enquiry reaches the right team faster."
             />
           </article>
           <EnquiryForm
@@ -171,9 +171,9 @@ export default async function ProjectDetailPage({ params }: PageProps) {
         <Section tone="surface">
           <Container className="space-y-8">
           <Heading
-            eyebrow="Related Routes"
-            title="Keep evaluating within the same VictoryOne business context."
-            description="These related project routes stay within the same VictoryOne business context."
+            eyebrow="Related Projects"
+            title="Compare related projects"
+            description="If you are still evaluating options, review other VictoryOne projects from the same portfolio."
           />
             <div className="grid gap-6 lg:grid-cols-3">
               {relatedProjects.map((related) => (

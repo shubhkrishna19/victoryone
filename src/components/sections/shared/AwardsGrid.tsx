@@ -17,9 +17,9 @@ export function AwardsGrid({ awards }: AwardsGridProps) {
     <Section id="awards" tone="surface">
       <Container className="space-y-10">
         <Heading
-          eyebrow="Recognition Archive"
-          title="Awards and recognitions"
-          description="Awards and recognitions are presented as a clear archive with dates, proof imagery, and concise source descriptions."
+          eyebrow="Recognition Records"
+          title="Recognition records"
+          description="Review dated recognition records and the visuals attached to each reference."
         />
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {awards.map((award, index) => (

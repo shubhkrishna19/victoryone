@@ -105,12 +105,15 @@ export function CallbackForm({ sectionId, defaultBusinessId, defaultProjectId, o
       }}
       onSubmit={onSubmit}
     >
+      <p className="text-sm text-foreground-muted">
+        Prefer a quick conversation? Share your details and the team will call you back.
+      </p>
       <Input label="Full name" autoComplete="name" {...register("name")} error={errors.name?.message} />
       <Input label="Email address" autoComplete="email" {...register("email")} error={errors.email?.message} />
       <Input label="Phone number" autoComplete="tel" {...register("phone")} error={errors.phone?.message} />
       <Input
-        label="Preferred callback window"
-        placeholder="Example: 3 pm to 5 pm"
+        label="Best time to call"
+        placeholder="Example: Today, 3:00 PM to 5:00 PM"
         {...register("preferredWindow")}
         error={errors.preferredWindow?.message}
       />
@@ -123,21 +126,21 @@ export function CallbackForm({ sectionId, defaultBusinessId, defaultProjectId, o
       <input type="hidden" {...register("campaign")} />
       <label className="flex items-start gap-3 text-sm text-foreground-muted">
         <input className="mt-1 h-4 w-4" type="checkbox" {...register("consent")} />
-        <span>I agree that VictoryOne may use these details to return this callback request.</span>
+        <span>I agree to be contacted by VictoryOne about this callback request.</span>
       </label>
       {errors.consent?.message ? <p className="field-error">{errors.consent.message}</p> : null}
       {!submitState?.success && "fieldErrors" in (submitState ?? {}) && submitState?.fieldErrors ? (
         <div className="rounded-2xl border border-danger/20 bg-danger/5 px-4 py-3 text-sm text-danger" aria-live="polite">
-          Please review the highlighted fields and submit again.
+          Please review the highlighted fields and try again.
         </div>
       ) : null}
       {submitState?.success ? (
         <div className="rounded-2xl border border-success/20 bg-success/5 px-4 py-3 text-sm text-success">
-          {submitState.message}
+          {`${submitState.message} The team will call you on the number provided.`}
         </div>
       ) : null}
       <Button type="submit" ctaId={`${sectionId}-submit`} sectionId={sectionId} disabled={isSubmitting} fullWidth>
-        {isSubmitting ? "Requesting Callback" : "Request Callback"}
+        {isSubmitting ? "Sending Request" : "Request a Callback"}
       </Button>
     </form>
   );

@@ -3,19 +3,19 @@ import type { FaqItem } from "@/types/content";
 export const faqs: FaqItem[] = [
   {
     id: "faq-invest",
-    question: "Why invest with us?",
+    question: "Why consider VictoryOne projects?",
     answer:
-      "VictoryOne Central and Amara are presented as part of a market with strong potential, backed by more than twenty years of experience across residential, industrial, energy, and nuclear power projects.",
+      "VictoryOne positions Central and Amara around furnished living, project convenience, and a broader delivery background across residential, industrial, energy, and infrastructure work.",
   },
   {
     id: "faq-credai",
-    question: "Are you CREDAI member?",
-    answer: "Yes.",
+    question: "Is VictoryOne a CREDAI member?",
+    answer: "Yes. The company states that it is a CREDAI member.",
   },
   {
     id: "faq-rera",
-    question: "Are you following RERA norms?",
-    answer: "Yes, from the inception itself.",
+    question: "Do VictoryOne projects follow RERA norms?",
+    answer: "Yes. The company FAQ states that RERA norms have been followed from the outset.",
   },
   {
     id: "faq-amenities",
@@ -27,7 +27,7 @@ export const faqs: FaqItem[] = [
     id: "faq-finance",
     question: "Which financial institutions are associated with you?",
     answer:
-      "HDFC, IndiaBulls, DHFL, Tata Housing, Vijaya Bank, ICICI, Corporation Bank, and other leading banks are named in the company FAQ record.",
+      "The company FAQ names HDFC, IndiaBulls, DHFL, Tata Housing, Vijaya Bank, ICICI, Corporation Bank, and other leading banks as associated institutions.",
   },
   {
     id: "faq-area-definitions",
@@ -48,8 +48,8 @@ export const faqs: FaqItem[] = [
   },
   {
     id: "faq-rent",
-    question: "Can the properties be given on rent if not required for immediate use?",
-    answer: "Yes.",
+    question: "Can a purchased property be rented out if it is not needed immediately?",
+    answer: "Yes. The company FAQ states that owners may rent out the property if they do not plan to occupy it immediately.",
   },
   {
     id: "faq-loan-amount",

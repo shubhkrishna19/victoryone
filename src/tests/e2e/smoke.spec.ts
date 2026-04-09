@@ -4,7 +4,7 @@ test("homepage loads and primary navigation is visible", async ({ page }) => {
   await page.goto("/");
 
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "In-house construction and furnished living",
+    "Furnished homes and commercial opportunities",
   );
 
   if (test.info().project.name === "mobile") {

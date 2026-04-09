@@ -13,22 +13,22 @@ const sections = [
   },
   {
     title: "How the information is used",
-    body: "The information you submit is used to route your request to the right team and respond through the contact details you provide. Campaign and route context may also be captured to understand how the enquiry reached the site.",
+    body: "We use the details you share to review your request and respond using the contact information you provide. We may also record the page or campaign that led you here so we can understand how the site is being used.",
   },
   {
     title: "Submission protection",
     body: "The site applies server-side validation, anti-spam checks, and rate-limiting measures on form submissions to reduce abuse and improve signal quality.",
   },
   {
-    title: "Formal privacy policy status",
-    body: "A fuller privacy policy is still under legal review for publication. Until that final document is approved, please use the contact route for any privacy-related clarification, correction, or deletion request.",
+    title: "Need a privacy clarification?",
+    body: "A full legal privacy policy is being finalized. Until it is published, use the contact page for any request related to access, correction, or deletion of information submitted through this site.",
   },
 ] as const;
 
 export const metadata: Metadata = buildMetadata({
   title: "Privacy Policy | VictoryOne",
   description:
-    "Overview of how VictoryOne handles enquiry, callback, and career submissions while the formal privacy policy is under review.",
+    "Overview of how VictoryOne handles enquiry, callback, and career submissions through the website.",
   path: "/privacy-policy",
 });
 
@@ -37,9 +37,9 @@ export default function PrivacyPolicyPage() {
     <>
       <RouteHero
         eyebrow="Legal"
-        title="Privacy and enquiry data handling"
-        description="This page explains the current form-data flow on the site while the final long-form privacy policy is being reviewed."
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "privacy-contact" }}
+        title="How VictoryOne handles website submissions"
+        description="This page outlines the information the site receives, how it is used, and the safeguards applied to enquiry, callback, and career forms."
+        primaryCta={{ label: "Contact VictoryOne", href: "/contact", ctaId: "privacy-contact" }}
       />
       <Section>
         <Container className="space-y-6">
@@ -51,10 +51,10 @@ export default function PrivacyPolicyPage() {
           ))}
           <div className="panel flex flex-wrap gap-3">
             <Button href="/contact" ctaId="privacy-support" sectionId="privacy-policy" variant="secondary">
-              Contact Support
+              Contact VictoryOne
             </Button>
             <Button href="/terms" ctaId="privacy-terms" sectionId="privacy-policy" variant="ghost">
-              Review Terms
+              Review Website Terms
             </Button>
           </div>
         </Container>

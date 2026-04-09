@@ -34,8 +34,8 @@ export default function LeadershipPage() {
         title={routeCopy.leadership.title}
         description={routeCopy.leadership.description}
         image={chairmanMessage.image}
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "leadership-contact" }}
-        secondaryCta={{ label: "Review Projects", href: "/projects", ctaId: "leadership-projects" }}
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "leadership-contact" }}
+        secondaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "leadership-projects" }}
       />
       <Section>
         <Container className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
@@ -49,8 +49,8 @@ export default function LeadershipPage() {
           <article className="panel">
             <Heading
               eyebrow="Leadership Principles"
-              title="Execution discipline presented as a trust layer"
-              description="Delivery credibility is tied to accountability, site involvement, and target-beating execution."
+              title="Execution discipline and visible accountability"
+              description="Delivery credibility depends on accountability, site involvement, and execution discipline."
             />
             <ul className="mt-6 grid gap-3 text-sm leading-7 text-foreground-muted">
               {chairmanMessage.principles.map((principle) => (
@@ -58,10 +58,10 @@ export default function LeadershipPage() {
               ))}
             </ul>
             <div className="mt-6 rounded-[24px] border border-border bg-background px-5 py-4">
-              <p className="text-xs uppercase tracking-[0.16em] text-foreground-muted">Trust translation</p>
+              <p className="text-xs uppercase tracking-[0.16em] text-foreground-muted">Why it matters</p>
               <p className="mt-3 text-sm leading-7 text-foreground-muted">
-                Leadership appears before the main enquiry ask so visitors can understand who is accountable for
-                project delivery before they submit their details.
+                Leadership is placed here so visitors can understand who is accountable for project delivery before
+                they get in touch.
               </p>
             </div>
           </article>
@@ -78,10 +78,10 @@ export default function LeadershipPage() {
             <p className="mt-4 text-sm leading-7 text-foreground-muted">{mdPerspective.detail}</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Button href="/projects" ctaId="leadership-md-projects" sectionId="leadership.md" variant="secondary">
-                Explore Projects
+                Browse Projects
               </Button>
               <Button href="/contact" ctaId="leadership-md-contact" sectionId="leadership.md" variant="ghost">
-                Talk to Team
+                Speak with the Team
               </Button>
             </div>
           </article>
@@ -106,7 +106,7 @@ export default function LeadershipPage() {
           <Heading
             eyebrow="Timeline"
             title="Leadership context across the delivery timeline"
-            description="The chronology below connects the leadership narrative to the broader project record and current Greater Noida West cycle."
+            description="The timeline below connects the leadership story to the wider company and project record."
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {leadershipTimeline.map((entry) => (
@@ -119,11 +119,11 @@ export default function LeadershipPage() {
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Trust Funnel"
-        title="Use leadership context to reduce hesitation before project review or contact."
-        description="The strongest next step after leadership review is either the active project portfolio or a direct enquiry with the relevant business or project context attached."
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "leadership-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "leadership-cta-contact" }}
+        eyebrow="Next Step"
+        title="Use the leadership overview to move into projects or contact."
+        description="If the leadership context gave you confidence, the next step is to review the current portfolio or speak with the team directly."
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "leadership-cta-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "leadership-cta-contact" }}
         sectionId="leadership.cta"
       />
       <FAQAccordion items={faqs.slice(0, 4)} />

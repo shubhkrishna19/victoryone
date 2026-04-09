@@ -1,4 +1,4 @@
-﻿import { Button } from "@/components/core/Button";
+import { Button } from "@/components/core/Button";
 import { Container } from "@/components/core/Container";
 import { Heading } from "@/components/core/Heading";
 import { Section } from "@/components/core/Section";
@@ -10,8 +10,8 @@ export function LeadershipPreview() {
       <Container className="space-y-10">
         <Heading
           eyebrow="Leadership"
-          title="Leadership visibility kept close to trust and conversion blocks."
-          description="The managing director narrative, interview perspective, and expert-team framing remain visible close to the main trust and conversion blocks."
+          title="Meet the leadership behind VictoryOne."
+          description="Review the managing director's perspective, the team behind execution, and the delivery principles that shape the projects."
         />
         <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           <article className="panel">
@@ -21,10 +21,10 @@ export function LeadershipPreview() {
             <p className="mt-4 text-sm leading-7 text-foreground-muted">{mdPerspective.quote}</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Button href="/leadership" ctaId="home-leadership-primary" sectionId="home.leadership">
-                View leadership
+                Meet the leadership team
               </Button>
               <Button href="/contact" variant="ghost" ctaId="home-leadership-contact" sectionId="home.leadership">
-                Talk to Team
+                Speak with the Team
               </Button>
             </div>
           </article>

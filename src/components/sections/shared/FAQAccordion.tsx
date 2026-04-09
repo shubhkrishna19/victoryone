@@ -20,7 +20,7 @@ export function FAQAccordion({
   items,
   eyebrow = "Support",
   title = "Frequently asked questions",
-  description = "Use the VictoryOne FAQ section for common investment, project, finance, and payment questions.",
+  description = "Use this section for the most common questions about project features, finance, and purchase terms.",
 }: FAQAccordionProps) {
   const [openId, setOpenId] = useState(items[0]?.id);
 

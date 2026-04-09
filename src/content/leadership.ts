@@ -6,13 +6,13 @@ export const chairmanMessage = {
   heading: "About the Builder",
   image: "/legacy/theme-images/team1.jpg",
   summary:
-    "VictoryOne Central and Amara are positioned as the result of Sudhir Agrawal's construction background across LIC, Reliance Energy, NHPC, NPCIL, CCI, Mitsui, Nokia-Siemens, CGHS, Army Welfare Housing Organisation, and Gyan Shakti assignments.",
+    "VictoryOne Central and Amara are linked to Sudhir Agrawal's construction background across LIC, Reliance Energy, NHPC, NPCIL, CCI, Mitsui, Nokia-Siemens, CGHS, Army Welfare Housing Organisation, and Gyan Shakti assignments.",
   detail:
-    "The managing director profile describes a civil engineer with a delivery-focused work ethic, deep involvement in site and design review, and a business philosophy shaped by trust, honesty, commitments, and excellence. It also ties leadership credibility to timely delivery and a strong sense of accountability.",
+    "The managing director profile describes a civil engineer with a delivery-focused work ethic, deep involvement in site and design review, and a business philosophy shaped by trust, honesty, commitments, and excellence. Leadership credibility is tied to timely delivery and a strong sense of accountability.",
   principles: [
-    "Timely delivery is presented as a non-negotiable leadership principle.",
-    "RERA-aligned thinking is presented as part of the operating stance from inception.",
-    "Execution is framed around beating targets rather than only meeting them.",
+    "Timely delivery is treated as a non-negotiable leadership principle.",
+    "RERA-aligned thinking is part of the operating stance from inception.",
+    "Execution is measured against the goal of beating targets rather than only meeting them.",
   ],
 };
 
@@ -40,7 +40,7 @@ export const leadershipEntries: LeadershipEntry[] = [
     name: "Architects and Designers",
     role: "Expert Team",
     summary:
-      "Architects and designers are presented as part of the hand-picked group responsible for overall quality, styling, and collaborative performance across VictoryOne developments.",
+      "Architects and designers are part of the hand-picked group responsible for overall quality, styling, and collaborative performance across VictoryOne developments.",
     image: "/legacy/theme-images/about1.jpg",
     kind: "team",
   },
@@ -49,7 +49,7 @@ export const leadershipEntries: LeadershipEntry[] = [
     name: "Engineers and Supervisors",
     role: "Expert Team",
     summary:
-      "Engineers and site supervisors are positioned as part of the day-to-day execution rhythm across office review, site presence, and construction coordination.",
+      "Engineers and site supervisors support the day-to-day execution rhythm across office review, site presence, and construction coordination.",
     image: "/legacy/theme-images/about-sec-right.jpg",
     kind: "team",
   },

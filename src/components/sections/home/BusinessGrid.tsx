@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
@@ -19,9 +19,9 @@ export function BusinessGrid() {
     <Section id="home-businesses" tone="surface">
       <Container className="space-y-10">
         <Heading
-          eyebrow="Business Identity"
-          title="VictoryOne Group, with room to grow into a wider business portfolio."
-          description="The site currently focuses on VictoryOne Group while keeping the structure ready for additional businesses once the wider group profile is finalised."
+          eyebrow="Business Overview"
+          title="One brand, spanning homes and commercial offerings."
+          description="VictoryOne currently brings its residential projects, commercial inventory, and contact options together through one group profile."
         />
         <div className="grid gap-6">
           {businesses.map((business) => (
@@ -55,7 +55,7 @@ export function BusinessGrid() {
                     ))}
                   </ul>
                   <div className="inline-flex items-center gap-2 text-sm font-semibold text-primary">
-                    View business detail <ArrowUpRight className="h-4 w-4" />
+                    Explore business profile <ArrowUpRight className="h-4 w-4" />
                   </div>
                 </div>
               </div>

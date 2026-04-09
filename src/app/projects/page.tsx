@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Projects | VictoryOne current and delivered portfolio",
   description:
-    "Search, filter, and review VictoryOne residential, commercial, and delivered projects from a single modern route.",
+    "Search, filter, and review VictoryOne residential, commercial, and delivered projects in one place.",
   path: "/projects",
   image: "/legacy/theme-images/project-homepg-amara.jpg",
 });
@@ -30,22 +30,22 @@ export default function ProjectsPage() {
         title={routeCopy.projects.title}
         description={routeCopy.projects.description}
         image="/legacy/theme-images/project-homepg-central.jpg"
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "projects-contact" }}
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "projects-contact" }}
         secondaryCta={{ label: "Review Leadership", href: "/leadership", ctaId: "projects-leadership" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{projects.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Total project records currently presented on the site</p>
+            <p className="mt-2 text-sm text-foreground-muted">Projects currently visible in the portfolio</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{currentCount}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Current residential and commercial project routes</p>
+            <p className="mt-2 text-sm text-foreground-muted">Current residential and commercial projects</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{completedCount}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Delivered archive entries in the wider project record</p>
+            <p className="mt-2 text-sm text-foreground-muted">Delivered projects in the archive</p>
           </article>
         </Container>
       </Section>
@@ -55,10 +55,10 @@ export default function ProjectsPage() {
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Project Funnel"
-        title="Move from shortlist to brochure, price list, or direct enquiry."
-        description="Every current project route carries its own direct enquiry path with business and project context attached."
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "projects-cta-contact" }}
+        eyebrow="Ready to Reach Out?"
+        title="Ready to shortlist a project or request details?"
+        description="Each live project page includes downloads and a direct enquiry form so you can continue with the right project details in place."
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "projects-cta-contact" }}
         secondaryCta={{ label: "Request Callback", href: "/contact?intent=callback", ctaId: "projects-cta-callback" }}
         sectionId="projects.cta"
       />

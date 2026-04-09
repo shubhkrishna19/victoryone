@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 
 import { Badge } from "@/components/core/Badge";
@@ -17,11 +17,11 @@ export function FeaturedProjects() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <Heading
             eyebrow="Featured Projects"
-            title="Residential and commercial project routes with clear next steps."
-            description="Current projects bring together brochures, price lists, maps, galleries, and compliance markers in one cleaner experience."
+            title="Current projects, commercial inventory, and key documents in one view."
+            description="Review brochures, price lists, maps, galleries, and enquiry options without jumping between multiple pages."
           />
           <Button href="/projects" variant="ghost" ctaId="home-featured-projects" sectionId="home.featuredProjects">
-            View all projects
+            Browse all projects
           </Button>
         </div>
         <div className="grid gap-6 lg:grid-cols-2">

@@ -7,9 +7,9 @@ export const businesses: Business[] = [
     name: "VictoryOne Group",
     tagline: "In-house construction and furnished living for Greater Noida West.",
     shortDescription:
-      "VictoryOne Group brings together furnished residential offerings, commercial inventory, and a construction-led delivery approach shaped by work across multiple sectors.",
+      "VictoryOne combines furnished homes, commercial opportunities, and an in-house construction approach informed by experience across multiple sectors.",
     longDescription:
-      "VictoryOne Group presents itself as a construction-led real estate business focused on furnished living spaces, smoother ownership experiences, and delivery discipline shaped by broad project exposure. The current site launch focuses on the core VictoryOne profile while remaining ready for additional group entities in future iterations.",
+      "VictoryOne Group is a construction-led real estate business focused on furnished living spaces, smoother ownership experiences, and delivery discipline shaped by broad project exposure across sectors.",
     logo: "/legacy/theme-images/logo.png",
     brandColor: "#8d6f43",
     website: "https://victoryone.in",
@@ -32,12 +32,12 @@ export const businesses: Business[] = [
     ],
     categories: ["Real Estate", "Residential", "Commercial"],
     credibility: [
-      "The project record presented on the site extends from 1998 through the current Greater Noida West developments.",
+      "The project record shown on the site extends from 1998 through the current Greater Noida West developments.",
       "Recognitions on the site include references connected to Property for Sale Magazine, India's Most Promising Brands, and Assocham Summit.",
       "Leadership messaging consistently emphasizes timely delivery, construction quality, and customer trust.",
     ],
     cta: {
-      label: "Talk to VictoryOne",
+      label: "Speak with the Team",
       href: "/contact?business=victoryone-group",
       ctaId: "business-victoryone-talk",
     },

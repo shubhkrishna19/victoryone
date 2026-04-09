@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 const sections = [
   {
     title: "Website use",
-    body: "This website is intended for project discovery, company information, and direct contact with the VictoryOne team. Visitors can review project information, office details, and enquiry routes without creating an account.",
+    body: "This website is intended for project discovery, company information, and direct contact with the VictoryOne team. Visitors can review project information, office details, and enquiry options without creating an account.",
   },
   {
     title: "Project information",
@@ -17,18 +17,18 @@ const sections = [
   },
   {
     title: "Enquiry and callback submissions",
-    body: "When you submit an enquiry, callback, or career form, the details you provide are used to route your request and respond. Automated abuse protection is active on these submission routes.",
+    body: "When you submit an enquiry, callback, or career form, the details you provide are used to review your request and respond. Automated abuse protection is active on these submission pages.",
   },
   {
-    title: "Formal legal text",
-    body: "A fuller legal terms document is still under review for publication. Until that final language is approved, please use the contact route for any commercial or legal clarification tied to the website content.",
+    title: "Need a legal clarification?",
+    body: "A full legal terms document is being finalized. Until it is published, use the contact page for any clarification on website content, project references, or commercial communication.",
   },
 ] as const;
 
 export const metadata: Metadata = buildMetadata({
   title: "Terms of Use | VictoryOne",
   description:
-    "Overview of website use, project information handling, and enquiry submissions while the formal VictoryOne legal terms remain under review.",
+    "Overview of website use, project information handling, and enquiry submissions on the VictoryOne website.",
   path: "/terms",
 });
 
@@ -37,9 +37,9 @@ export default function TermsPage() {
     <>
       <RouteHero
         eyebrow="Legal"
-        title="Website use and project information"
-        description="This page explains how the current website is intended to be used while the final long-form legal text is being reviewed."
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "terms-contact" }}
+        title="Website use and project information guide"
+        description="This page outlines how VictoryOne presents project information online and how enquiry pages should be used."
+        primaryCta={{ label: "Contact VictoryOne", href: "/contact", ctaId: "terms-contact" }}
       />
       <Section>
         <Container className="space-y-6">
@@ -51,10 +51,10 @@ export default function TermsPage() {
           ))}
           <div className="panel flex flex-wrap gap-3">
             <Button href="/contact" ctaId="terms-support" sectionId="terms" variant="secondary">
-              Contact Support
+              Contact VictoryOne
             </Button>
             <Button href="/privacy-policy" ctaId="terms-privacy" sectionId="terms" variant="ghost">
-              Review Privacy Overview
+              Review Privacy Summary
             </Button>
           </div>
         </Container>

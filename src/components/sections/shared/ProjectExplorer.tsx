@@ -60,7 +60,7 @@ export function ProjectExplorer({ projects }: ProjectExplorerProps) {
               });
             }}
             className="field-input"
-            placeholder="Search by project, location, or type"
+            placeholder="Search by project name, location, or segment"
           />
         </label>
         <label className="field-wrap">
@@ -146,12 +146,12 @@ export function ProjectExplorer({ projects }: ProjectExplorerProps) {
         </div>
       ) : (
         <div className="panel text-center">
-          <p className="text-lg font-semibold text-foreground">No projects matched the current filters.</p>
+          <p className="text-lg font-semibold text-foreground">No projects match these preferences yet.</p>
           <p className="mt-3 text-sm text-foreground-muted">
-            Reset the filters or move directly to the contact route if you already know the team should respond.
+            Adjust the filters above, or send an enquiry and the team can help you shortlist the most relevant option.
           </p>
           <Link href="/contact" className="btn-base btn-primary mt-5 inline-flex px-5 py-3 text-sm">
-            Contact VictoryOne
+            Help Me Shortlist
           </Link>
         </div>
       )}

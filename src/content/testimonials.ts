@@ -45,7 +45,7 @@ export const testimonials: Testimonial[] = [
     name: "Ankit Kumar Jalori",
     role: "Software Engineer, Bangalore",
     quote:
-      "The club gives the feeling of a five-star club and the swimming pool is positioned as an exclusive feature with winter operation support.",
+      "The club gives the feeling of a five-star facility and the swimming pool stands out as an exclusive feature with winter operation support.",
     image: "/legacy/uploads/2018/01/cust-img-11.jpg",
   },
   {

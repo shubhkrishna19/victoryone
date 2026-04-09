@@ -27,8 +27,8 @@ export default function BusinessesPage() {
         title={routeCopy.businesses.title}
         description={routeCopy.businesses.description}
         image="/legacy/theme-images/logo.png"
-        primaryCta={{ label: "Review Projects", href: "/projects", ctaId: "businesses-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "businesses-contact" }}
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "businesses-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "businesses-contact" }}
       />
       <BusinessGrid />
       <Section>
@@ -42,11 +42,11 @@ export default function BusinessesPage() {
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Next Decision"
-        title="Move from business understanding to project evaluation."
-        description="The business route narrows the story; the project route gets you into brochures, price lists, and enquiry context."
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "businesses-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "businesses-cta-contact" }}
+        eyebrow="Next Step"
+        title="Want to move from the group overview into a specific project?"
+        description="Start here for the broader business view, then continue into project pages for brochures, pricing references, and direct enquiries."
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "businesses-cta-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "businesses-cta-contact" }}
         sectionId="businesses.cta"
       />
       <FAQAccordion items={faqs.slice(0, 3)} />

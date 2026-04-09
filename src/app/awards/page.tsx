@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Awards | VictoryOne recognition archive",
   description:
-    "VictoryOne awards and recognitions presented through a searchable and accessible archive.",
+    "VictoryOne awards and recognitions collected in one searchable archive.",
   path: "/awards",
   image: awards[0]?.image,
 });
@@ -27,34 +27,34 @@ export default function AwardsPage() {
         title={routeCopy.awards.title}
         description={routeCopy.awards.description}
         image={awards[0]?.image}
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "awards-contact" }}
-        secondaryCta={{ label: "Review Projects", href: "/projects", ctaId: "awards-projects" }}
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "awards-contact" }}
+        secondaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "awards-projects" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{awards.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Recognition references presented in one archive</p>
+            <p className="mt-2 text-sm text-foreground-muted">Recognition records currently shown on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">2014-2018</p>
-            <p className="mt-2 text-sm text-foreground-muted">Recognition window currently represented by site records</p>
+            <p className="mt-2 text-sm text-foreground-muted">Award references currently visible from 2014 to 2018 records</p>
           </article>
           <article className="panel">
-            <p className="text-3xl font-semibold text-foreground">Proof-led</p>
+            <p className="text-3xl font-semibold text-foreground">With source visuals</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              Every card keeps a supporting image so trust signals remain visible, not abstract.
+              Each recognition keeps the image carried in the archive so visitors can review the original context.
             </p>
           </article>
         </Container>
       </Section>
       <AwardsGrid awards={awards} />
       <ContextualCTA
-        eyebrow="Trust Funnel"
-        title="Use recognition proof to move into projects or direct contact."
-        description="Awards do not replace project detail, but they reduce hesitation and strengthen the case for deeper evaluation or a direct conversation."
+        eyebrow="Next Step"
+        title="Use these recognitions as context, then review live projects."
+        description="These records support credibility, but project pages and direct contact are still the best next step for evaluation."
         primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "awards-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "awards-cta-contact" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "awards-cta-contact" }}
         sectionId="awards.cta"
       />
       <FAQAccordion items={faqs.slice(0, 3)} />

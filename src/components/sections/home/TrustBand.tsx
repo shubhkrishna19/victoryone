@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Badge } from "@/components/core/Badge";
 import { Container } from "@/components/core/Container";
@@ -14,8 +14,8 @@ export function TrustBand() {
     <Section id="home-trust" tone="surface">
       <Container className="space-y-10">
         <Heading
-          eyebrow="Trust Layer"
-          title="Awards, press references, and delivery framing close to the first conversion ask."
+          eyebrow="Recognition and Press"
+          title="Recognition, media coverage, and visible project credibility."
           description={homeProof.trustSignals.join(" ")}
         />
         <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
@@ -36,8 +36,8 @@ export function TrustBand() {
           </ParallaxLayer>
           <div className="panel grid gap-5">
             <div>
-              <Badge>{awards.length} archived recognitions</Badge>
-              <h3 className="mt-4 text-xl font-semibold text-foreground">Press and recognition snapshot</h3>
+              <Badge>{awards.length} recognitions on record</Badge>
+              <h3 className="mt-4 text-xl font-semibold text-foreground">Selected press and recognition</h3>
             </div>
             {mediaEntries.map((item) => (
               <div key={item.id} className="rounded-[22px] border border-border bg-background px-4 py-4">

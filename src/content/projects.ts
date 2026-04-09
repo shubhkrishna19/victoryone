@@ -10,7 +10,7 @@ const currentProjects: Project[] = [
     segment: "residential",
     location: "GH-05 C, Sector-16, Greater Noida (West)",
     overview:
-      "VictoryOne Amara is presented as a fully furnished residential project with 2 and 3 BHK apartments, lifestyle amenities, and direct access to location details, construction updates, walkthroughs, and sample-flat visuals.",
+      "VictoryOne Amara is a fully furnished residential project with 2 and 3 BHK apartments, lifestyle amenities, and direct access to location details, construction updates, walkthroughs, and sample-flat visuals.",
     highlights: [
       "Air-conditioners in all bedrooms",
       "Built-in hob and chimney",
@@ -56,7 +56,7 @@ const currentProjects: Project[] = [
     rera: "UPRERAPRJ6187",
     brochureUrl: "/legacy/uploads/2019/02/AMARA-BROUCHURE-19.pdf",
     complianceNotes: [
-      "The project route surfaces a RERA registration reference in the project details.",
+      "RERA registration is shown in the project details.",
       "Construction updates, map access, walkthrough references, and sample-flat visuals remain part of the project story.",
     ],
   },
@@ -69,7 +69,7 @@ const currentProjects: Project[] = [
     segment: "residential",
     location: "Plot No-02 E, Sector-12 Greater Noida (West)",
     overview:
-      "VictoryOne Central is presented as a fully furnished residential project with 2 and 3 BHK apartments, the same core furnished-living feature set highlighted on Amara, and direct access to construction, map, walkthrough, and sample-flat references.",
+      "VictoryOne Central is a fully furnished residential project with 2 and 3 BHK apartments, the same core furnished-living feature set highlighted on Amara, and direct access to construction, map, walkthrough, and sample-flat references.",
     highlights: [
       "Air-conditioners in all bedrooms",
       "Built-in hob and chimney",
@@ -110,7 +110,7 @@ const currentProjects: Project[] = [
     rera: "UPRERAPRJ5889",
     brochureUrl: "/legacy/uploads/2019/02/CENTRAL-BROUCHURE-19.pdf",
     complianceNotes: [
-      "The project route surfaces a RERA registration reference in the project details.",
+      "RERA registration is shown in the project details.",
       "Brochure, application form, and price-list downloads remain available from the project page.",
     ],
   },
@@ -127,7 +127,7 @@ const currentProjects: Project[] = [
     highlights: [
       "Floor galleries remain visible through the current project media set",
       "Construction updates driven by category 6 posts",
-      "Direct commercial enquiry path available on the current site",
+      "Commercial enquiries can be sent directly from this project page.",
     ],
     gallery: [
       "/legacy/theme-images/post/amara-spectrum1.jpg",
@@ -150,7 +150,7 @@ const currentProjects: Project[] = [
     tags: ["Commercial", "Construction updates", "Greater Noida West"],
     brochureUrl: "/legacy/uploads/2018/07/Amara-Brouchure.pdf",
     complianceNotes: [
-      "The project route keeps the commercial construction-update visual record visible alongside the download path.",
+      "Commercial construction visuals remain visible alongside the available downloads.",
     ],
   },
   {
@@ -166,7 +166,7 @@ const currentProjects: Project[] = [
     highlights: [
       "Ground floor and first floor references remain available on the page",
       "Construction update imagery remains visible in the commercial gallery",
-      "Commercial enquiry route aligned with the modern contact flow",
+      "Commercial enquiries can be sent directly from this project page",
     ],
     gallery: [
       "/legacy/theme-images/gf-commercial.jpg",
@@ -194,7 +194,7 @@ const currentProjects: Project[] = [
     tags: ["Commercial", "Floor plans", "Greater Noida West"],
     brochureUrl: "/legacy/uploads/2019/02/CENTRAL-BROUCHURE-19.pdf",
     complianceNotes: [
-      "The project route retains commercial pricing collateral and construction-update visuals for quick review.",
+      "Commercial pricing material and construction visuals remain available for review.",
     ],
   },
 ];
@@ -233,7 +233,7 @@ const pastProjects: Project[] = pastProjectSeed.map(
     status: "completed",
     segment,
     location,
-    overview: `${name} appears in the delivered project record with location and approximate size information.`,
+    overview: `${name} is included in VictoryOne's delivered portfolio with location and approximate size details.`,
     highlights: [location, `Approx. Size: ${sizeLabel}`],
     gallery: [`/legacy/theme-images/post/${image}`],
     downloads: [],

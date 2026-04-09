@@ -11,6 +11,7 @@ import { Select } from "@/components/core/Select";
 import { TextArea } from "@/components/core/TextArea";
 import { businesses } from "@/content/businesses";
 import { projects } from "@/content/projects";
+import { globalSettings } from "@/content/settings";
 import { useQueryContext } from "@/hooks/useQueryContext";
 import { trackEvent } from "@/lib/analytics";
 import { contactSchema, type ContactFormValues } from "@/lib/validators";
@@ -130,19 +131,21 @@ export function EnquiryForm({
       onSubmit={onSubmit}
     >
       <div aria-live="polite" className="text-sm text-foreground-muted">
-        {submitState?.success ? submitState.message : "Share the project or business context and the team will respond through the VictoryOne inbox."}
+        {submitState?.success
+          ? submitState.message
+          : "Share a few details and the VictoryOne team will send your enquiry to the right person."}
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         <Input label="Full name" autoComplete="name" {...register("name")} error={errors.name?.message} />
         <Input label="Email address" autoComplete="email" {...register("email")} error={errors.email?.message} />
         <Input label="Phone number" autoComplete="tel" {...register("phone")} error={errors.phone?.message} />
-        <Select label="Enquiry type" {...register("enquiryType")} error={errors.enquiryType?.message}>
-          <option value="general">General enquiry</option>
-          <option value="project">Project enquiry</option>
-          <option value="business">Business enquiry</option>
+        <Select label="I'm reaching out about" {...register("enquiryType")} error={errors.enquiryType?.message}>
+          <option value="general">General information</option>
+          <option value="project">A specific project</option>
+          <option value="business">Business or partnership enquiry</option>
         </Select>
         <Select label="Business context" {...register("businessId")} error={errors.businessId?.message}>
-          <option value="">Select business</option>
+          <option value="">Choose a business</option>
           {businesses.map((business) => (
             <option key={business.id} value={business.id}>
               {business.name}
@@ -150,12 +153,12 @@ export function EnquiryForm({
           ))}
         </Select>
         <Select
-          label="Project context"
+          label="Project"
           {...register("projectId")}
           error={errors.projectId?.message}
           disabled={selectedType === "business"}
         >
-          <option value="">Select project</option>
+          <option value="">Choose a project</option>
           {projects.map((project) => (
             <option key={project.id} value={project.id}>
               {project.name}
@@ -167,7 +170,7 @@ export function EnquiryForm({
         label="Project or enquiry detail"
         {...register("message")}
         error={errors.message?.message}
-        helper="Use this field for project interest, callback needs, or business-specific questions."
+        helper="Tell us what you would like to know, and mention the project or business if you already have one in mind."
       />
       <input type="hidden" tabIndex={-1} autoComplete="off" {...register("honeypot")} />
       <input type="hidden" {...register("route")} />
@@ -176,17 +179,17 @@ export function EnquiryForm({
       <input type="hidden" {...register("campaign")} />
       <label className="flex items-start gap-3 text-sm text-foreground-muted">
         <input className="mt-1 h-4 w-4" type="checkbox" {...register("consent")} />
-        <span>I agree that VictoryOne may use these details to respond to this enquiry.</span>
+        <span>I agree to be contacted by VictoryOne about this enquiry.</span>
       </label>
       {errors.consent?.message ? <p className="field-error">{errors.consent.message}</p> : null}
       {!submitState?.success && "fieldErrors" in (submitState ?? {}) && submitState?.fieldErrors ? (
         <div className="rounded-2xl border border-danger/20 bg-danger/5 px-4 py-3 text-sm text-danger" aria-live="polite">
-          Please review the highlighted fields and submit again.
+          Please review the highlighted fields and try again.
         </div>
       ) : null}
       {submitState?.success ? (
         <div className="rounded-2xl border border-success/20 bg-success/5 px-4 py-3 text-sm text-success">
-          {submitState.message} If you prefer direct contact, use `info@victoryone.in` or `+91-9210992922`.
+          {`Your enquiry has been received. If you prefer direct follow-up, write to ${globalSettings.email} or call ${globalSettings.phones[1]}.`}
         </div>
       ) : null}
       <div className="flex flex-wrap gap-3">
@@ -194,7 +197,7 @@ export function EnquiryForm({
           {isSubmitting ? "Sending Enquiry" : "Send Enquiry"}
         </Button>
         <Button href="/projects" variant="ghost" ctaId={`${sectionId}-projects`} sectionId={sectionId}>
-          Review Projects
+          Browse Projects
         </Button>
       </div>
     </form>

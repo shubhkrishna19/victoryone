@@ -6,7 +6,7 @@ export const mediaEntries: MediaEntry[] = [
     title: "January Newspaper Archive",
     date: "2017-12-30",
     source: "Amar Ujala",
-    description: "Newspaper coverage reference from the Amar Ujala archive.",
+    description: "Archived Amar Ujala coverage referenced in the VictoryOne record.",
     image: "/legacy/uploads/2017/12/amarujala-small.jpg",
   },
   {
@@ -14,7 +14,7 @@ export const mediaEntries: MediaEntry[] = [
     title: "March Newspaper Archive",
     date: "2018-01-04",
     source: "Dainik Bhaskar",
-    description: "Newspaper coverage reference from the Dainik Bhaskar archive.",
+    description: "Archived Dainik Bhaskar coverage referenced in the VictoryOne record.",
     image: "/legacy/uploads/2018/01/dainik-bhaskar-small.jpg",
   },
   {
@@ -22,7 +22,7 @@ export const mediaEntries: MediaEntry[] = [
     title: "VictoryOne Managing Director Cover Story",
     date: "2018-01-08",
     source: "Property for Sale Magazine",
-    description: "Management cover-story reference associated with Property for Sale Magazine.",
+    description: "Archived leadership cover story published by Property for Sale Magazine.",
     image: "/legacy/uploads/2018/01/property-for-sale-magazine.jpg",
   },
 ];

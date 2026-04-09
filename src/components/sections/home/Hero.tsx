@@ -50,7 +50,7 @@ export function Hero() {
           </ParallaxLayer>
           <ParallaxLayer speed={0.18} maxOffset={60} className="absolute bottom-0 right-8 w-[52%]">
             <div className="panel bg-surface/95 backdrop-blur">
-              <p className="eyebrow">Proof layer</p>
+              <p className="eyebrow">Key figures</p>
               <div className="mt-3 grid grid-cols-2 gap-4">
                 {homeProof.stats.slice(0, 4).map((stat) => (
                   <div key={stat.label}>

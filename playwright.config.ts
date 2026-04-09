@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: "./src/tests/e2e",
   timeout: 60_000,
   use: {
-    baseURL: "http://127.0.0.1:3100",
+    baseURL: "http://127.0.0.1:3200",
     trace: "on-first-retry",
   },
   projects: [
@@ -18,9 +18,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run dev -- --hostname 127.0.0.1 --port 3100",
-    url: "http://127.0.0.1:3100",
-    reuseExistingServer: false,
+    command: "npm run dev -- --hostname 127.0.0.1 --port 3200",
+    url: "http://127.0.0.1:3200",
+    reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
 });

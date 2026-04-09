@@ -16,7 +16,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Careers | VictoryOne job openings",
   description:
-    "Current VictoryOne career roles presented through a typed listing and application flow.",
+    "Current VictoryOne openings with role details, hiring contact information, and a direct application form.",
   path: "/careers",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -30,20 +30,20 @@ export default function CareersPage() {
         description={routeCopy.careers.description}
         image="/legacy/theme-images/about1.jpg"
         primaryCta={{ label: "Apply Now", href: "#career-form", ctaId: "careers-apply" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "careers-contact" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "careers-contact" }}
       />
       <Section>
         <Container className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <article className="panel">
             <Heading
               eyebrow="Hiring Approach"
-              title="Operational roles and a direct application path"
-              description="The careers route brings together current openings, interview location references, and a cleaner application flow."
+              title="Current openings and how to apply"
+              description="Review the open roles, interview location, and the fastest way to send your application."
             />
             <ul className="mt-6 grid gap-3 text-sm leading-7 text-foreground-muted">
-              <li>Roles are concentrated around sales and front-office execution.</li>
+              <li>Current openings are focused on sales and front-office operations.</li>
               <li>Interview location is listed as H-56, Sector 63, Noida for the current openings.</li>
-              <li>Applications now go through a validated submission flow instead of scattered manual handling.</li>
+              <li>Applications now move through a validated submission flow with direct routing to the hiring team.</li>
             </ul>
           </article>
           <article className="panel">
@@ -52,8 +52,8 @@ export default function CareersPage() {
             <p className="mt-4 text-sm leading-7 text-foreground-muted">Email: priyanka.victoryone@gmail.com</p>
             <p className="mt-2 text-sm leading-7 text-foreground-muted">Phone: 0120-4266606/07/14/28</p>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">
-              Use the application form below for the cleanest CRM-ready payload. The direct hiring contact remains
-              visible for users who prefer manual follow-up.
+              Use the application form below for the fastest submission. Direct hiring details remain
+              visible if you prefer to follow up manually.
             </p>
           </article>
         </Container>
@@ -62,8 +62,8 @@ export default function CareersPage() {
         <Container className="space-y-8">
           <Heading
             eyebrow="Open Positions"
-            title="Verified current roles"
-            description="Each role card carries the location, qualification, and responsibility details currently available in the site record."
+            title="Current openings"
+            description="Each role card shows the location, experience, qualifications, and key responsibilities currently published by VictoryOne."
           />
           <div className="grid gap-6 lg:grid-cols-2">
             {jobs.map((job) => (
@@ -91,10 +91,10 @@ export default function CareersPage() {
                 </ul>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Button href="#career-form" ctaId={`${job.id}-apply`} sectionId="careers.roles" variant="secondary">
-                    Apply for this role
+                    Apply for this opening
                   </Button>
                   <Button href="/contact" ctaId={`${job.id}-contact`} sectionId="careers.roles" variant="ghost">
-                    Ask a question
+                    Ask about this role
                   </Button>
                 </div>
               </article>
@@ -107,19 +107,19 @@ export default function CareersPage() {
           <article className="panel">
             <Heading
               eyebrow="Application"
-              title="Submit a structured application"
-              description="The form keeps the fields short, validates on blur and submit, and returns a typed response object from the server."
+              title="Apply with the right role context"
+              description="Keep your details concise. The form validates as you go and sends your application directly to the hiring team."
             />
           </article>
           <CareerForm sectionId="careers.form" successHref="/thank-you?type=career" />
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Career Funnel"
-        title="Need more clarity before you apply?"
-        description="Review the company context, leadership route, or contact page if you want more certainty before sending your application."
+        eyebrow="Before You Apply"
+        title="Want more context before you apply?"
+        description="Review leadership, browse projects, or contact the team if you want more context before sending your application."
         primaryCta={{ label: "Review Leadership", href: "/leadership", ctaId: "careers-cta-leadership" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "careers-cta-contact" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "careers-cta-contact" }}
         sectionId="careers.cta"
       />
       <FAQAccordion items={faqs.slice(0, 3)} />

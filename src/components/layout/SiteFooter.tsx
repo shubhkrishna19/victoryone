@@ -20,10 +20,10 @@ export function SiteFooter() {
             className="h-12 w-auto brightness-0 invert"
           />
           <p className="mt-4 max-w-md text-sm leading-7 text-white/72">
-            VictoryOne&apos;s projects, leadership, awards, testimonials, media, events, and contact routes now live in one maintainable and accessible front-end experience.
+            VictoryOne brings together furnished homes, commercial opportunities, and direct access to project and contact information.
           </p>
           <p className="mt-4 text-sm text-white/64">
-            In-house construction, furnished living, and delivery-focused trust signals remain the message spine across the site.
+            In-house construction, furnished living, and confidence in delivery remain at the center of the VictoryOne story.
           </p>
         </div>
         <div>
@@ -71,7 +71,7 @@ export function SiteFooter() {
             </Link>
           ))}
         </div>
-        <p>VictoryOne site experience refined for performance, accessibility, and maintainability.</p>
+        <p>Review projects, compare options, and connect with the team directly.</p>
       </div>
     </footer>
   );

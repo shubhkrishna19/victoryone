@@ -11,8 +11,8 @@ export function TestimonialsSection() {
       <Container className="space-y-10">
         <Heading
           eyebrow="Testimonials"
-          title="Customer perspectives connected to the VictoryOne experience."
-          description="Selected testimonials focus on ownership accessibility, planning quality, club amenities, location, and completion confidence."
+          title="What residents and buyers say about VictoryOne."
+          description="These testimonials speak to move-in readiness, amenities, location, and confidence in choosing the project."
         />
         <div className="grid gap-6 lg:grid-cols-3">
           {testimonials.slice(0, 6).map((testimonial) => (

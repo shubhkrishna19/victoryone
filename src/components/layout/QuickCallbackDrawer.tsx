@@ -99,7 +99,7 @@ export function QuickCallbackDrawer() {
       >
         <div className="mb-6 flex items-start justify-between gap-4">
           <div>
-            <p className="eyebrow">Fast Conversion</p>
+            <p className="eyebrow">Quick Callback</p>
             <h2 id="callback-drawer-title" className="text-2xl font-semibold text-foreground">
               Request a callback
             </h2>

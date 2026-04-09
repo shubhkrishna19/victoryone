@@ -27,36 +27,36 @@ export default function EventsPage() {
         title={routeCopy.events.title}
         description={routeCopy.events.description}
         image={events[0]?.image}
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "events-contact" }}
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "events-contact" }}
         secondaryCta={{ label: "Review Awards", href: "/awards", ctaId: "events-awards" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{events.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Event records currently represented on the site</p>
+            <p className="mt-2 text-sm text-foreground-muted">Event records currently shown on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Community</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              The archive shows brand participation outside the project pages, which broadens the trust story.
+              The timeline shows how the brand has appeared beyond the project pages.
             </p>
           </article>
           <article className="panel">
-            <p className="text-3xl font-semibold text-foreground">Cross-linked</p>
+            <p className="text-3xl font-semibold text-foreground">Next step</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              Each event route now feeds back into projects and contact instead of behaving like an isolated gallery.
+              Review these moments for context, then return to projects or contact for your next step.
             </p>
           </article>
         </Container>
       </Section>
       <EventTimeline events={events} />
       <ContextualCTA
-        eyebrow="Trust Funnel"
-        title="Event proof should support confidence, then hand the user back to a clear next step."
-        description="After social or brand validation, most visitors either continue comparing projects or decide to contact the team directly."
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "events-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "events-cta-contact" }}
+        eyebrow="Next Step"
+        title="Use the event timeline as context, then move to a clear next step."
+        description="After reviewing community and brand moments, most visitors either compare projects or contact the team."
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "events-cta-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "events-cta-contact" }}
         sectionId="events.cta"
       />
       <FAQAccordion items={faqs.slice(6)} />

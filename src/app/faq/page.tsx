@@ -25,40 +25,40 @@ export default function FaqPage() {
         title={routeCopy.faq.title}
         description={routeCopy.faq.description}
         image="/legacy/theme-images/about1.jpg"
-        primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "faq-contact" }}
-        secondaryCta={{ label: "Review Projects", href: "/projects", ctaId: "faq-projects" }}
+        primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "faq-contact" }}
+        secondaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "faq-projects" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{faqs.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">FAQ entries currently represented on the site</p>
+            <p className="mt-2 text-sm text-foreground-muted">Questions currently covered in the site FAQ</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Finance</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              The archive covers lenders, loan limits, and payment-schedule logic.
+              Lenders, loan limits, booking amount, and payment timing are all covered here.
             </p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Project fit</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              Amenities, RERA, and ownership questions remain visible near the bottom of the funnel.
+              Coverage includes amenities, RERA references, and ownership-related questions.
             </p>
           </article>
         </Container>
       </Section>
       <FAQAccordion
         items={faqs}
-        eyebrow="FAQ Archive"
-        title="Common investor, project, and payment questions"
+        eyebrow="Common Questions"
+        title="Project, finance, and purchase questions"
       />
       <ContextualCTA
-        eyebrow="Support Funnel"
-        title="Still need project-specific answers?"
-        description="The FAQ route handles common objections, but project detail pages and the contact route are the right next step for anything route-specific."
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "faq-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "faq-cta-contact" }}
+        eyebrow="Still Have Questions?"
+        title="Still looking for a project-specific answer?"
+        description="Use the project pages for development-specific detail, or contact the team if your question depends on current availability, pricing, or documents."
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "faq-cta-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "faq-cta-contact" }}
         sectionId="faq.cta"
       />
       <ContextualCTA

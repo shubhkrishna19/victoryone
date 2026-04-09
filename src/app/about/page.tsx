@@ -13,7 +13,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About VictoryOne | Mission, vision, values, and CSR",
   description:
-    "VictoryOne's company profile, mission, vision, values, CSR perspective, and delivery highlights presented through a modern corporate route.",
+    "VictoryOne's company profile, mission, vision, values, CSR perspective, and delivery highlights.",
   path: "/about",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -27,7 +27,7 @@ export default function AboutPage() {
         description={routeCopy.about.description}
         image="/legacy/theme-images/about1.jpg"
         primaryCta={{ label: "Review Projects", href: "/projects", ctaId: "about-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "about-contact" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "about-contact" }}
       />
       <Section>
         <Container className="grid gap-6 lg:grid-cols-2">
@@ -85,11 +85,11 @@ export default function AboutPage() {
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Conversion Path"
-        title="Use the verified group narrative to shortlist the right project."
-        description="Move next into the active project archive or open a direct enquiry if you already know which team or project context matters."
-        primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "about-cta-projects" }}
-        secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "about-cta-contact" }}
+        eyebrow="Where to go next"
+        title="Use the company story to narrow down the right next conversation."
+        description="Continue into the active project collection or contact the team directly if you already know which project or office matters."
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "about-cta-projects" }}
+        secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "about-cta-contact" }}
         sectionId="about.cta"
       />
       <FAQAccordion items={faqs.slice(0, 4)} />

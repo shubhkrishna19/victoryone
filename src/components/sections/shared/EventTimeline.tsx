@@ -16,9 +16,9 @@ export function EventTimeline({ events }: EventTimelineProps) {
     <Section>
       <Container className="space-y-10">
         <Heading
-          eyebrow="Event Archive"
-          title="Event moments from the VictoryOne journey"
-          description="The event archive is presented as a readable timeline rather than a disconnected image grid."
+          eyebrow="Event Timeline"
+          title="Event archive"
+          description="Review archived event photographs in chronological order, with the date kept visible on each entry."
         />
         <div className="grid gap-6">
           {events.map((event) => (
