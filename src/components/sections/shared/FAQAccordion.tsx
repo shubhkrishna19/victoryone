@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
@@ -20,7 +20,7 @@ export function FAQAccordion({
   items,
   eyebrow = "Support",
   title = "Frequently asked questions",
-  description = "Use the audited VictoryOne FAQ archive for common investment, project, finance, and payment questions.",
+  description = "Use the VictoryOne FAQ section for common investment, project, finance, and payment questions.",
 }: FAQAccordionProps) {
   const [openId, setOpenId] = useState(items[0]?.id);
 
@@ -51,4 +51,3 @@ export function FAQAccordion({
     </Section>
   );
 }
-

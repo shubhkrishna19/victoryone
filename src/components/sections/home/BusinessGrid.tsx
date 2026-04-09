@@ -20,8 +20,8 @@ export function BusinessGrid() {
       <Container className="space-y-10">
         <Heading
           eyebrow="Business Identity"
-          title="Launch-ready for VictoryOne, structured for more businesses later."
-          description="The first release surfaces the audited VictoryOne group entity while preserving a schema and route pattern that can grow into a true multi-business portfolio."
+          title="VictoryOne Group, with room to grow into a wider business portfolio."
+          description="The site currently focuses on VictoryOne Group while keeping the structure ready for additional businesses once the wider group profile is finalised."
         />
         <div className="grid gap-6">
           {businesses.map((business) => (

@@ -101,7 +101,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             <Heading
               eyebrow="Downloads and Compliance"
               title="Brochures, price lists, and route-specific trust markers"
-              description="Download links are rebuilt from audited legacy assets and only surfaced where a verified file exists in the backup."
+              description="Download links are surfaced only where the site has a verified brochure, application form, or price-list file attached to the project."
             />
             <div className="mt-6 grid gap-3">
               {project.downloads.length ? (
@@ -120,7 +120,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 ))
               ) : (
                 <p className="text-sm leading-7 text-foreground-muted">
-                  No verified downloadable file is attached to this project record in the modern rebuild.
+                  No downloadable brochure or price-list file is currently attached to this project record.
                 </p>
               )}
             </div>
@@ -138,8 +138,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
         <Container className="space-y-8">
           <Heading
             eyebrow="Gallery"
-            title="Hero media, sample visuals, and legacy proof imagery"
-            description="The project gallery replaces the legacy slider stack with optimized media cards."
+            title="Hero media, sample visuals, and project imagery"
+            description="The gallery brings together the visuals available for this project in a cleaner review format."
           />
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {project.gallery.map((image, index) => (
@@ -156,7 +156,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             <Heading
               eyebrow="Project Enquiry"
               title="Carry the project route into the enquiry payload."
-              description="The form below preselects this project so the modern API routes receive the right context immediately."
+              description="The form below preselects this project so the team receives the right context immediately."
             />
           </article>
           <EnquiryForm
@@ -170,11 +170,11 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       {relatedProjects.length ? (
         <Section tone="surface">
           <Container className="space-y-8">
-            <Heading
-              eyebrow="Related Routes"
-              title="Keep evaluating within the same VictoryOne business context."
-              description="These related project routes remain inside the same verified business model."
-            />
+          <Heading
+            eyebrow="Related Routes"
+            title="Keep evaluating within the same VictoryOne business context."
+            description="These related project routes stay within the same VictoryOne business context."
+          />
             <div className="grid gap-6 lg:grid-cols-3">
               {relatedProjects.map((related) => (
                 <Link key={related.id} href={`/projects/${related.slug}`} className="panel block">

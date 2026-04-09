@@ -108,7 +108,7 @@ export default async function BusinessDetailPage({ params }: PageProps) {
           <Heading
             eyebrow="Featured Projects"
             title="Current projects connected to this business context"
-            description="These project routes preserve the legacy Amara, Central, and commercial pages while removing duplicated layout and asset loading."
+            description="These project routes connect the business story to the active residential and commercial portfolio."
           />
           <div className="grid gap-6 lg:grid-cols-2">
             {featuredProjects.map((project) => (
@@ -127,7 +127,7 @@ export default async function BusinessDetailPage({ params }: PageProps) {
             <Heading
               eyebrow="Business Enquiry"
               title="Carry the business context into a direct conversation."
-              description="The form below preselects this business so the team receives the right route context immediately."
+              description="The form below preselects this business so the team receives the right context immediately."
             />
           </article>
           <EnquiryForm sectionId="business.detail.form" defaultEnquiryType="business" defaultBusinessId={business.id} />

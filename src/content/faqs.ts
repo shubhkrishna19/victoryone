@@ -5,7 +5,7 @@ export const faqs: FaqItem[] = [
     id: "faq-invest",
     question: "Why invest with us?",
     answer:
-      "The audited FAQ describes VictoryOne Central and Amara as part of a market with strong potential, backed by more than twenty years of experience across premium residential, industrial, energy, and nuclear power projects.",
+      "VictoryOne Central and Amara are presented as part of a market with strong potential, backed by more than twenty years of experience across residential, industrial, energy, and nuclear power projects.",
   },
   {
     id: "faq-credai",
@@ -27,7 +27,7 @@ export const faqs: FaqItem[] = [
     id: "faq-finance",
     question: "Which financial institutions are associated with you?",
     answer:
-      "HDFC, IndiaBulls, DHFL, Tata Housing, Vijaya Bank, ICICI, Corporation Bank, and other leading banks are named in the audited FAQ content.",
+      "HDFC, IndiaBulls, DHFL, Tata Housing, Vijaya Bank, ICICI, Corporation Bank, and other leading banks are named in the company FAQ record.",
   },
   {
     id: "faq-area-definitions",

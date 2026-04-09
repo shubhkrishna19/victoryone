@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Awards | VictoryOne recognition archive",
   description:
-    "VictoryOne awards and recognitions rebuilt from the audited category archive into a searchable and accessible grid.",
+    "VictoryOne awards and recognitions presented through a searchable and accessible archive.",
   path: "/awards",
   image: awards[0]?.image,
 });
@@ -34,15 +34,11 @@ export default function AwardsPage() {
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{awards.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">
-              Structured recognitions preserved from the legacy award archive
-            </p>
+            <p className="mt-2 text-sm text-foreground-muted">Recognition references presented in one archive</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">2014-2018</p>
-            <p className="mt-2 text-sm text-foreground-muted">
-              Recognition window directly represented by the audited award assets and copy
-            </p>
+            <p className="mt-2 text-sm text-foreground-muted">Recognition window currently represented by site records</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Proof-led</p>

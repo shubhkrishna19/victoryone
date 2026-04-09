@@ -11,7 +11,7 @@ export function LeadershipPreview() {
         <Heading
           eyebrow="Leadership"
           title="Leadership visibility kept close to trust and conversion blocks."
-          description="The rebuild keeps the chairman narrative, MD perspective, and expert-team framing visible without repeating the legacy page structure."
+          description="The managing director narrative, interview perspective, and expert-team framing remain visible close to the main trust and conversion blocks."
         />
         <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           <article className="panel">

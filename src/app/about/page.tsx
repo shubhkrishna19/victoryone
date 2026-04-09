@@ -5,15 +5,15 @@ import { Section } from "@/components/core/Section";
 import { ContextualCTA } from "@/components/sections/shared/ContextualCTA";
 import { FAQAccordion } from "@/components/sections/shared/FAQAccordion";
 import { RouteHero } from "@/components/sections/shared/RouteHero";
-import { aboutNarrative, finalCta, routeCopy } from "@/content/site";
+import { aboutNarrative, companyHighlights, finalCta, routeCopy } from "@/content/site";
 import { faqs } from "@/content/faqs";
 import { homeProof } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "About VictoryOne | Legacy, mission, vision, and CSR",
+  title: "About VictoryOne | Mission, vision, values, and CSR",
   description:
-    "Audited introduction, mission, vision, core values, and CSR content from VictoryOne rebuilt into a modern and accessible route.",
+    "VictoryOne's company profile, mission, vision, values, CSR perspective, and delivery highlights presented through a modern corporate route.",
   path: "/about",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -42,6 +42,16 @@ export default function AboutPage() {
             <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.mission}</p>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">{aboutNarrative.vision}</p>
           </article>
+        </Container>
+      </Section>
+      <Section tone="surface">
+        <Container className="grid gap-6 lg:grid-cols-3">
+          {companyHighlights.map((item) => (
+            <article key={item.title} className="panel">
+              <p className="eyebrow">{item.title}</p>
+              <p className="mt-4 text-sm leading-7 text-foreground-muted">{item.body}</p>
+            </article>
+          ))}
         </Container>
       </Section>
       <Section tone="surface">
@@ -77,7 +87,7 @@ export default function AboutPage() {
       <ContextualCTA
         eyebrow="Conversion Path"
         title="Use the verified group narrative to shortlist the right project."
-        description="Move next into the live project archive or open a direct enquiry if you already know which team or project context matters."
+        description="Move next into the active project archive or open a direct enquiry if you already know which team or project context matters."
         primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "about-cta-projects" }}
         secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "about-cta-contact" }}
         sectionId="about.cta"

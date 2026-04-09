@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Events | VictoryOne event timeline",
   description:
-    "Legacy event gallery entries rebuilt into an accessible VictoryOne event timeline with dates, imagery, and conversion links.",
+    "VictoryOne event timeline with dates, imagery, and clear next steps back into projects and contact.",
   path: "/events",
   image: events[0]?.image,
 });
@@ -34,9 +34,7 @@ export default function EventsPage() {
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{events.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">
-              Event records preserved from the audited category-driven gallery
-            </p>
+            <p className="mt-2 text-sm text-foreground-muted">Event records currently represented on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Community</p>

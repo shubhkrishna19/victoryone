@@ -15,7 +15,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Media | VictoryOne press and newspaper archive",
   description:
-    "Newspaper coverage and media references rebuilt from the audited VictoryOne archive into a modern press route.",
+    "Newspaper coverage and media references presented through a dedicated VictoryOne press route.",
   path: "/media",
   image: mediaEntries[0]?.image,
 });
@@ -37,13 +37,13 @@ export default function MediaPage() {
             <Heading
               eyebrow="Media Intent"
               title="Press coverage turned into a usable trust layer"
-              description="The legacy newspaper route functioned as proof. The rebuild keeps that role explicit and links it back into active conversion routes."
+              description="The media route works as proof, then links visitors back into active project and contact paths."
             />
           </article>
           <article className="panel">
             <p className="eyebrow">Archive Notes</p>
             <ul className="mt-4 grid gap-3 text-sm leading-7 text-foreground-muted">
-              <li>Audited press records remain visible with publication name and date.</li>
+              <li>Press records remain visible with publication name and date.</li>
               <li>The management cover-story reference is preserved alongside newspaper imagery.</li>
               <li>Every media card now has a clear next action instead of ending in an isolated gallery.</li>
             </ul>

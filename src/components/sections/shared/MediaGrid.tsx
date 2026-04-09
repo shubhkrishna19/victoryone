@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Badge } from "@/components/core/Badge";
 import { Container } from "@/components/core/Container";
@@ -18,7 +18,7 @@ export function MediaGrid({ media }: MediaGridProps) {
         <Heading
           eyebrow="Press Archive"
           title="Media mentions and newspaper references"
-          description="Audited newspaper and cover-story references are consolidated into a single press archive."
+          description="Newspaper and cover-story references are consolidated into a single press archive."
         />
         <div className="grid gap-6 lg:grid-cols-3">
           {media.map((item) => (
@@ -39,4 +39,3 @@ export function MediaGrid({ media }: MediaGridProps) {
     </Section>
   );
 }
-

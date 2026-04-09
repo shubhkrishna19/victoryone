@@ -12,7 +12,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "FAQ | VictoryOne frequently asked questions",
   description:
-    "Frequently asked questions from the audited VictoryOne FAQ template rebuilt into an accessible accordion route.",
+    "Frequently asked questions covering project fit, amenities, finance, and buying process on VictoryOne.",
   path: "/faq",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -32,7 +32,7 @@ export default function FaqPage() {
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{faqs.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Verified FAQ entries preserved from the audited template</p>
+            <p className="mt-2 text-sm text-foreground-muted">FAQ entries currently represented on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Finance</p>

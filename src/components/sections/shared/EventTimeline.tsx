@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Badge } from "@/components/core/Badge";
 import { Container } from "@/components/core/Container";
@@ -17,8 +17,8 @@ export function EventTimeline({ events }: EventTimelineProps) {
       <Container className="space-y-10">
         <Heading
           eyebrow="Event Archive"
-          title="Event moments from the legacy gallery"
-          description="The original event category is rebuilt as a readable timeline rather than a plugin-dependent image grid."
+          title="Event moments from the VictoryOne journey"
+          description="The event archive is presented as a readable timeline rather than a disconnected image grid."
         />
         <div className="grid gap-6">
           {events.map((event) => (
@@ -38,4 +38,3 @@ export function EventTimeline({ events }: EventTimelineProps) {
     </Section>
   );
 }
-

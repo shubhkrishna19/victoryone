@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Container } from "@/components/core/Container";
 import { Heading } from "@/components/core/Heading";
@@ -11,7 +11,7 @@ export function TestimonialsSection() {
       <Container className="space-y-10">
         <Heading
           eyebrow="Testimonials"
-          title="Customer language preserved from the audited testimonial archive."
+          title="Customer perspectives connected to the VictoryOne experience."
           description="Selected testimonials focus on ownership accessibility, planning quality, club amenities, location, and completion confidence."
         />
         <div className="grid gap-6 lg:grid-cols-3">
@@ -26,7 +26,7 @@ export function TestimonialsSection() {
                   <p className="text-sm text-foreground-muted">{testimonial.role}</p>
                 </div>
               </div>
-              <p className="mt-5 text-sm leading-7 text-foreground-muted">â€œ{testimonial.quote}â€</p>
+              <p className="mt-5 text-sm leading-7 text-foreground-muted">&ldquo;{testimonial.quote}&rdquo;</p>
             </article>
           ))}
         </div>
@@ -34,4 +34,3 @@ export function TestimonialsSection() {
     </Section>
   );
 }
-

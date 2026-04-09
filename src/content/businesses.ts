@@ -7,9 +7,9 @@ export const businesses: Business[] = [
     name: "VictoryOne Group",
     tagline: "In-house construction and furnished living for Greater Noida West.",
     shortDescription:
-      "VictoryOne Group positions Central and Amara as furnished residential offerings backed by in-house construction, commercial inventory, and a legacy delivery record across multiple sectors.",
+      "VictoryOne Group brings together furnished residential offerings, commercial inventory, and a construction-led delivery approach shaped by work across multiple sectors.",
     longDescription:
-      "Riding the waves of real estate development, VictoryOne Group described itself in the legacy site as a fast-growing construction company focused on harmonized living spaces, hassle-free ownership, and a delivery discipline shaped by decades of construction exposure. The current rebuild launches with this audited VictoryOne profile while keeping the content model ready for additional business entities later.",
+      "VictoryOne Group presents itself as a construction-led real estate business focused on furnished living spaces, smoother ownership experiences, and delivery discipline shaped by broad project exposure. The current site launch focuses on the core VictoryOne profile while remaining ready for additional group entities in future iterations.",
     logo: "/legacy/theme-images/logo.png",
     brandColor: "#8d6f43",
     website: "https://victoryone.in",
@@ -32,9 +32,9 @@ export const businesses: Business[] = [
     ],
     categories: ["Real Estate", "Residential", "Commercial"],
     credibility: [
-      "Legacy project portfolio extends from 1998 through current Greater Noida West developments.",
-      "Awards archive includes recognition from Property for Sale Magazine, India Achievers Podium, and Assocham Summit references.",
-      "Leadership messaging repeatedly emphasizes timely delivery, quality construction, and customer trust.",
+      "The project record presented on the site extends from 1998 through the current Greater Noida West developments.",
+      "Recognitions on the site include references connected to Property for Sale Magazine, India's Most Promising Brands, and Assocham Summit.",
+      "Leadership messaging consistently emphasizes timely delivery, construction quality, and customer trust.",
     ],
     cta: {
       label: "Talk to VictoryOne",

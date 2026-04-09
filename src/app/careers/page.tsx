@@ -16,7 +16,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Careers | VictoryOne job openings",
   description:
-    "Current VictoryOne career roles rebuilt from the audited job board into a typed listing and application flow.",
+    "Current VictoryOne career roles presented through a typed listing and application flow.",
   path: "/careers",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -37,20 +37,18 @@ export default function CareersPage() {
           <article className="panel">
             <Heading
               eyebrow="Hiring Approach"
-              title="Operational roles sourced from the audited VictoryOne hiring board"
-              description="The careers route keeps the verified openings, location, and hiring contacts that were exposed through the legacy job plugin data."
+              title="Operational roles and a direct application path"
+              description="The careers route brings together current openings, interview location references, and a cleaner application flow."
             />
             <ul className="mt-6 grid gap-3 text-sm leading-7 text-foreground-muted">
               <li>Roles are concentrated around sales and front-office execution.</li>
-              <li>Interview location remains H-56, Sector 63, Noida where stated in the audited source.</li>
-              <li>Applications now go through a validated API flow instead of an ad-hoc mail pattern.</li>
+              <li>Interview location is listed as H-56, Sector 63, Noida for the current openings.</li>
+              <li>Applications now go through a validated submission flow instead of scattered manual handling.</li>
             </ul>
           </article>
           <article className="panel">
             <p className="eyebrow">Hiring Contact</p>
-            <h2 className="mt-3 text-2xl font-semibold text-foreground">
-              Shared audited contact for the current job board
-            </h2>
+            <h2 className="mt-3 text-2xl font-semibold text-foreground">Current hiring contact</h2>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">Email: priyanka.victoryone@gmail.com</p>
             <p className="mt-2 text-sm leading-7 text-foreground-muted">Phone: 0120-4266606/07/14/28</p>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">
@@ -65,7 +63,7 @@ export default function CareersPage() {
           <Heading
             eyebrow="Open Positions"
             title="Verified current roles"
-            description="Each role card carries the original location, qualification, and responsibility signals from the audited job data."
+            description="Each role card carries the location, qualification, and responsibility details currently available in the site record."
           />
           <div className="grid gap-6 lg:grid-cols-2">
             {jobs.map((job) => (

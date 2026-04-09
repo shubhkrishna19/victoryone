@@ -17,84 +17,84 @@ export const routeCopy = {
     eyebrow: "VictoryOne Group",
     title: "In-house construction and furnished living for Greater Noida West.",
     description:
-      "VictoryOne positions Central and Amara as fully furnished living environments backed by in-house construction, delivery focus, and a long project history across residential, industrial, infrastructure, energy, and institutional work.",
-    trustLine: "2013 current project inception | 22 projects completed in different capacity | 12 awards won",
+      "VictoryOne brings together furnished residential homes, commercial inventory, and a construction-led delivery approach shaped by experience across residential, industrial, infrastructure, energy, and institutional assignments.",
+    trustLine: "Current project cycle since 2013 | 22 completed assignments in different capacity | 12 recognitions",
     primaryCta: projectsCta,
     secondaryCta: contactCta,
   },
   about: {
     eyebrow: "About VictoryOne",
-    title: "A legacy portfolio translated into a modern delivery-first real estate experience.",
+    title: "Construction-led homes, furnished living, and a delivery record built over time.",
     description:
-      "VictoryOne presents audited group history, mission, vision, core values, CSR commitments, and the operating discipline behind its Greater Noida West projects.",
+      "VictoryOne combines Greater Noida West residential and commercial developments with a broader delivery record across housing, industrial, infrastructure, energy, and institutional work.",
   },
   businesses: {
     eyebrow: "Business Overview",
-    title: "One audited VictoryOne entity, structured for future multi-business expansion.",
+    title: "VictoryOne Group and its active residential and commercial portfolio.",
     description:
-      "The rebuild keeps the information architecture ready for additional businesses while launching with the verified VictoryOne group profile and its active project set.",
+      "The current launch focuses on VictoryOne Group, while the platform remains ready to support additional businesses as the wider group structure is confirmed.",
   },
   projects: {
     eyebrow: "Projects",
-    title: "Current residential and commercial projects, plus the delivered legacy portfolio.",
+    title: "Residential and commercial inventory, plus a delivered project archive.",
     description:
-      "The projects layer consolidates Amara, Central, commercial floors, construction updates, brochures, price lists, and completed work into one searchable structure.",
+      "Amara, Central, commercial inventory, brochures, price lists, and the delivered portfolio are now presented through one searchable project layer.",
   },
   leadership: {
     eyebrow: "Leadership",
-    title: "Chairman narrative, MD perspective, and the expert team disciplines behind execution.",
+    title: "Leadership visibility, project accountability, and the team disciplines behind execution.",
     description:
-      "Leadership content is rebuilt from the audited chairman, team, and interview templates without duplicating the legacy PHP layout debt.",
+      "The leadership section brings together the managing director perspective, team functions, and the operating principles that shape project delivery.",
   },
   awards: {
     eyebrow: "Awards",
-    title: "Recognitions preserved from the audited VictoryOne archive.",
+    title: "Recognitions associated with the VictoryOne journey.",
     description:
-      "Awards and recognitions are mapped from the legacy category-driven listing into a modern card archive with dates, descriptions, and linked proof.",
+      "Recognitions and media-linked references are organised into one clear archive for quick review.",
   },
   media: {
     eyebrow: "Media",
     title: "Archived press references and newspaper coverage.",
     description:
-      "Media records are preserved from the newspaper archive and management cover-story references surfaced in the legacy content set.",
+      "Press references and management coverage are collected into one reviewable media route.",
   },
   events: {
     eyebrow: "Events",
-    title: "Event gallery entries from the legacy archive.",
+    title: "Selected event moments connected to the VictoryOne journey.",
     description:
-      "The event route transforms the original category-driven gallery into a structured timeline with dates, imagery, and direct next actions.",
+      "The events route presents community and brand moments through a cleaner visual timeline.",
   },
   careers: {
     eyebrow: "Careers",
-    title: "Open roles drawn from the audited VictoryOne job board.",
+    title: "Roles, hiring context, and direct routes to the VictoryOne team.",
     description:
-      "Career listings preserve verified job openings, interview locations, role expectations, and the VictoryOne hiring contact from the legacy job plugin data.",
+      "Career listings bring together role expectations, interview location references, and a direct application path to the team.",
   },
   faq: {
     eyebrow: "FAQ",
-    title: "Answers preserved from the audited VictoryOne FAQ template.",
+    title: "Key questions around projects, amenities, finance, and buying process.",
     description:
-      "Frequently asked questions cover investment logic, RERA, amenities, finance, definitions, down payment, loans, and payment schedules.",
+      "Frequently asked questions cover RERA, amenities, finance institutions, buying terminology, down payment, loans, and payment schedules.",
   },
   contact: {
     eyebrow: "Contact",
     title: "Centralized enquiry, callback, and office contact flow.",
     description:
-      "The contact route replaces the legacy PHP process endpoint with validated form flows, audited office data, and a single accessible conversion surface.",
+      "Use one route for enquiries, callbacks, and office information, with project and business context carried directly into the submission.",
   },
   thankYou: {
     eyebrow: "Request Received",
     title: "Your enquiry is now in the VictoryOne inbox.",
     description:
-      "The rebuild keeps submission feedback immediate and clear, with office channels still visible if you need direct follow-up.",
+      "A team member can now review your submission with the right project or business context attached.",
   },
 };
 
 export const aboutNarrative = {
   introduction:
-    "VictoryOne is a refreshing change in the finest luxurious housing that meets aspirations of a new generation. If you like fine living, make Central and Amara your home. If you do not wish to bother with interior decoration and accessorizing, VictoryOne Central and Amara position themselves as ready-to-move-in furnished apartments.",
+    "VictoryOne is presented as a refreshed approach to luxurious housing for a new generation of buyers. Central and Amara are positioned as homes for people who want a more complete move-in experience without the usual hassle of interior fit-out and accessorising from scratch.",
   continuation:
-    "The VictoryOne Group offers living spaces in Greater Noida West with an emphasis on furnished comfort and affordability. The legacy site repeatedly positioned the projects as a way to reduce hassle while preserving a premium feel.",
+    "The group focuses on Greater Noida West living spaces with an emphasis on furnished comfort, convenience, and value. Central and Amara are presented as homes designed to reduce the effort normally associated with post-possession setup.",
   mission:
     "Build a culture of operational excellence with fair business practices and play a key role in providing quality housing for the masses at affordable values.",
   vision:
@@ -109,9 +109,24 @@ export const aboutNarrative = {
   csr: [
     "VictoryOne adopts a holistic CSR approach covering people, upliftment, environmental care, greening, and awareness building.",
     "CSR is framed as a serious operating commitment rather than surface-level donation activity.",
-    "The legacy text emphasizes empowerment, dignity, and practical community improvement over symbolic gestures.",
+    "The stated focus is on empowerment, dignity, and practical community improvement.",
   ],
 };
+
+export const companyHighlights = [
+  {
+    title: "What VictoryOne offers",
+    body: "VictoryOne combines furnished 2 and 3 BHK living formats, commercial inventory, and project-specific downloads such as brochures, application forms, and price lists.",
+  },
+  {
+    title: "How projects are positioned",
+    body: "In-house construction is presented as a quality-control advantage, with leadership visibility, delivery focus, and direct access to project details kept close to the enquiry journey.",
+  },
+  {
+    title: "Where experience comes from",
+    body: "The broader project record spans residential, industrial, infrastructure, energy, healthcare, and institutional assignments from 1998 onward.",
+  },
+] as const;
 
 export const homeProof = {
   stats: [
@@ -128,9 +143,9 @@ export const homeProof = {
     statement: "Faith that scales heights",
   },
   trustSignals: [
-    "RERA-aware delivery messaging surfaced in both current residential project templates.",
-    "In-house construction positioned as the quality backbone in the home hero.",
-    "Award, testimonial, and press archives preserved from the legacy category structure.",
+    "RERA references are surfaced on the current residential projects.",
+    "In-house construction is positioned as a core quality-control advantage.",
+    "Awards, testimonials, and press references are presented as visible trust signals across the site.",
   ],
 };
 
@@ -138,7 +153,7 @@ export const finalCta = {
   eyebrow: "Next Step",
   title: "Move from research to a verified VictoryOne conversation.",
   description:
-    "Use the project listings for detail, leadership for trust context, or contact directly if you already know which development or office team you need.",
+    "Use the project listings for detail, leadership for context, or contact directly if you already know which development or office team you need.",
   primaryCta: contactCta,
   secondaryCta: projectsCta,
 };

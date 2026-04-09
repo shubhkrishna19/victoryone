@@ -105,7 +105,7 @@ export function CareerForm({ sectionId, defaultJobId, successHref }: CareerFormP
       onSubmit={onSubmit}
     >
       <div aria-live="polite" className="text-sm text-foreground-muted">
-        Roles are sourced from the audited VictoryOne job board and route directly to the hiring contact defined there.
+        Use this form to send a structured application directly to the current VictoryOne hiring contact.
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         <Input label="Full name" autoComplete="name" {...register("name")} error={errors.name?.message} />
@@ -144,7 +144,7 @@ export function CareerForm({ sectionId, defaultJobId, successHref }: CareerFormP
       ) : null}
       {submitState?.success ? (
         <div className="rounded-2xl border border-success/20 bg-success/5 px-4 py-3 text-sm text-success">
-          {submitState.message} The audited job board contact remains `priyanka.victoryone@gmail.com`.
+          {submitState.message} If you prefer direct follow-up, the listed hiring contact is `priyanka.victoryone@gmail.com`.
         </div>
       ) : null}
       <Button type="submit" ctaId={`${sectionId}-submit`} sectionId={sectionId} disabled={isSubmitting}>

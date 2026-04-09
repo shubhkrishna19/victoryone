@@ -15,7 +15,7 @@ type ThankYouPageProps = {
 export const metadata: Metadata = buildMetadata({
   title: "Thank You | VictoryOne",
   description:
-    "VictoryOne confirmation route for enquiries and applications submitted through the rebuilt website.",
+    "VictoryOne confirmation route for enquiries and applications submitted through the website.",
   path: "/thank-you",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -50,7 +50,9 @@ export default async function ThankYouPage({ searchParams }: ThankYouPageProps) 
         <Container className="grid gap-6 lg:grid-cols-[1fr_1fr]">
           <article className="panel">
             <h2 className="text-2xl font-semibold text-foreground">{message}</h2>
-            <p className="mt-4 text-sm leading-7 text-foreground-muted">[CONTACT_RESPONSE_TIME_PROMISE]</p>
+            <p className="mt-4 text-sm leading-7 text-foreground-muted">
+              A team member can now review your submission and respond through the contact information you shared.
+            </p>
             <p className="mt-4 text-sm leading-7 text-foreground-muted">
               If you prefer direct follow-up, use {globalSettings.email} or {globalSettings.phones.join(" | ")}.
             </p>

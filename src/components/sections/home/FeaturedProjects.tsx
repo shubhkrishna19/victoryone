@@ -17,8 +17,8 @@ export function FeaturedProjects() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <Heading
             eyebrow="Featured Projects"
-            title="Residential and commercial routes mapped from the legacy project stack."
-            description="Current projects preserve brochures, price lists, maps, galleries, and compliance markers while removing the legacy template duplication."
+            title="Residential and commercial project routes with clear next steps."
+            description="Current projects bring together brochures, price lists, maps, galleries, and compliance markers in one cleaner experience."
           />
           <Button href="/projects" variant="ghost" ctaId="home-featured-projects" sectionId="home.featuredProjects">
             View all projects

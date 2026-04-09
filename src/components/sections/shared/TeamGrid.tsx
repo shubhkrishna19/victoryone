@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Container } from "@/components/core/Container";
 import { Heading } from "@/components/core/Heading";
@@ -16,7 +16,7 @@ export function TeamGrid({ entries }: TeamGridProps) {
         <Heading
           eyebrow="Expert Team"
           title="Leadership and delivery disciplines"
-          description="The legacy team template surfaced one named leader and an extended expert-team description. The rebuild keeps that distinction explicit."
+          description="The leadership page keeps one named leader visible while also showing the wider expert team behind delivery."
         />
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {entries.map((entry) => (
@@ -34,4 +34,3 @@ export function TeamGrid({ entries }: TeamGridProps) {
     </Section>
   );
 }
-

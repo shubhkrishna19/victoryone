@@ -17,7 +17,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Contact | VictoryOne enquiry and callback",
   description:
-    "Validated contact, enquiry, callback, and office details for VictoryOne rebuilt from the audited legacy site.",
+    "VictoryOne enquiry, callback, and office details with direct project and business context built into the contact flow.",
   path: "/contact",
   image: "/legacy/theme-images/about1.jpg",
 });
@@ -57,8 +57,14 @@ export default function ContactPage() {
           </article>
           <article className="panel">
             <p className="eyebrow">Response Path</p>
-            <p className="mt-3 text-sm leading-7 text-foreground-muted">[CONTACT_RESPONSE_TIME_PROMISE]</p>
-            <p className="mt-3 text-sm leading-7 text-foreground-muted">[PRIVACY_ONE_LINER]</p>
+            <p className="mt-3 text-sm leading-7 text-foreground-muted">
+              Use the form that best matches your intent and the enquiry will reach the right team with its business
+              or project context attached.
+            </p>
+            <p className="mt-3 text-sm leading-7 text-foreground-muted">
+              The details you share are used to review your request and respond through the contact information you
+              provide.
+            </p>
             <div className="mt-6">
               <Button callback ctaId="contact-fast-callback" sectionId="contact.hero" variant="secondary">
                 Request Callback
@@ -88,8 +94,8 @@ export default function ContactPage() {
         <Container className="space-y-8">
           <Heading
             eyebrow="Offices"
-            title="Audited office locations"
-            description="Office data below is taken from the audited contact templates and centralized into one maintainable settings module."
+            title="Corporate and site office locations"
+            description="Corporate and project-specific office details are centralised here so visitors can contact the right location without hunting across the site."
           />
           <div className="grid gap-6 lg:grid-cols-3">
             {globalSettings.offices.map((office) => (

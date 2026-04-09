@@ -21,7 +21,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Leadership | VictoryOne chairman, MD perspective, and expert team",
   description:
-    "Chairman message, MD interview perspective, and team structure rebuilt from the audited VictoryOne leadership templates.",
+    "VictoryOne leadership, managing director perspective, and expert team structure presented for trust and project context.",
   path: "/leadership",
   image: chairmanMessage.image,
 });
@@ -50,7 +50,7 @@ export default function LeadershipPage() {
             <Heading
               eyebrow="Leadership Principles"
               title="Execution discipline presented as a trust layer"
-              description="The audited chairman template repeatedly tied delivery credibility to accountability, site involvement, and target-beating execution."
+              description="Delivery credibility is tied to accountability, site involvement, and target-beating execution."
             />
             <ul className="mt-6 grid gap-3 text-sm leading-7 text-foreground-muted">
               {chairmanMessage.principles.map((principle) => (
@@ -60,8 +60,8 @@ export default function LeadershipPage() {
             <div className="mt-6 rounded-[24px] border border-border bg-background px-5 py-4">
               <p className="text-xs uppercase tracking-[0.16em] text-foreground-muted">Trust translation</p>
               <p className="mt-3 text-sm leading-7 text-foreground-muted">
-                Leadership is surfaced before the major enquiry ask so visitors can evaluate who is accountable for
-                project delivery before they submit details.
+                Leadership appears before the main enquiry ask so visitors can understand who is accountable for
+                project delivery before they submit their details.
               </p>
             </div>
           </article>
@@ -106,7 +106,7 @@ export default function LeadershipPage() {
           <Heading
             eyebrow="Timeline"
             title="Leadership context across the delivery timeline"
-            description="The chronology below ties the leadership narrative to the broader project archive and current Greater Noida West cycle."
+            description="The chronology below connects the leadership narrative to the broader project record and current Greater Noida West cycle."
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {leadershipTimeline.map((entry) => (
@@ -121,7 +121,7 @@ export default function LeadershipPage() {
       <ContextualCTA
         eyebrow="Trust Funnel"
         title="Use leadership context to reduce hesitation before project review or contact."
-        description="The strongest next step after leadership validation is either the active project portfolio or a direct enquiry with the relevant business or project context attached."
+        description="The strongest next step after leadership review is either the active project portfolio or a direct enquiry with the relevant business or project context attached."
         primaryCta={{ label: "Explore Projects", href: "/projects", ctaId: "leadership-cta-projects" }}
         secondaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "leadership-cta-contact" }}
         sectionId="leadership.cta"

@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 import { Badge } from "@/components/core/Badge";
 import { Container } from "@/components/core/Container";
@@ -19,7 +19,7 @@ export function AwardsGrid({ awards }: AwardsGridProps) {
         <Heading
           eyebrow="Recognition Archive"
           title="Awards and recognitions"
-          description="The legacy category listing is rebuilt as a modern archive with dates, proof imagery, and concise source descriptions."
+          description="Awards and recognitions are presented as a clear archive with dates, proof imagery, and concise source descriptions."
         />
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {awards.map((award, index) => (
@@ -39,4 +39,3 @@ export function AwardsGrid({ awards }: AwardsGridProps) {
     </Section>
   );
 }
-

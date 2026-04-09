@@ -10,7 +10,7 @@ const currentProjects: Project[] = [
     segment: "residential",
     location: "GH-05 C, Sector-16, Greater Noida (West)",
     overview:
-      "VictoryOne Amara is presented in the legacy project template as a fully furnished residential project with 2 and 3 BHK apartments, world-class facilities, and immediate access to location maps, construction updates, walkthroughs, and sample flats.",
+      "VictoryOne Amara is presented as a fully furnished residential project with 2 and 3 BHK apartments, lifestyle amenities, and direct access to location details, construction updates, walkthroughs, and sample-flat visuals.",
     highlights: [
       "Air-conditioners in all bedrooms",
       "Built-in hob and chimney",
@@ -56,8 +56,8 @@ const currentProjects: Project[] = [
     rera: "UPRERAPRJ6187",
     brochureUrl: "/legacy/uploads/2019/02/AMARA-BROUCHURE-19.pdf",
     complianceNotes: [
-      "Legacy modal copy states that the project is RERA compliant and registered.",
-      "Legacy navigation surfaced direct paths for construction updates, Google map, walkthrough, and sample flat.",
+      "The project route surfaces a RERA registration reference in the project details.",
+      "Construction updates, map access, walkthrough references, and sample-flat visuals remain part of the project story.",
     ],
   },
   {
@@ -69,7 +69,7 @@ const currentProjects: Project[] = [
     segment: "residential",
     location: "Plot No-02 E, Sector-12 Greater Noida (West)",
     overview:
-      "VictoryOne Central is presented as a fully furnished residential project with 2 and 3 BHK apartments, the same core feature set highlighted on Amara, and direct links to construction updates, Google map, walkthrough, and sample flat pages in the legacy build.",
+      "VictoryOne Central is presented as a fully furnished residential project with 2 and 3 BHK apartments, the same core furnished-living feature set highlighted on Amara, and direct access to construction, map, walkthrough, and sample-flat references.",
     highlights: [
       "Air-conditioners in all bedrooms",
       "Built-in hob and chimney",
@@ -110,8 +110,8 @@ const currentProjects: Project[] = [
     rera: "UPRERAPRJ5889",
     brochureUrl: "/legacy/uploads/2019/02/CENTRAL-BROUCHURE-19.pdf",
     complianceNotes: [
-      "Legacy modal copy states that the project is RERA compliant and registered.",
-      "The original template preserves downloadable brochure, application, and price list links.",
+      "The project route surfaces a RERA registration reference in the project details.",
+      "Brochure, application form, and price-list downloads remain available from the project page.",
     ],
   },
   {
@@ -123,11 +123,11 @@ const currentProjects: Project[] = [
     segment: "commercial",
     location: "GH-05 C, Sector-16, Greater Noida (West)",
     overview:
-      "The audited Amara Commercial page focused on commercial floor imagery, an on-page price-list visual, and a gallery of construction update posts drawn from category-based content.",
+      "VictoryOne Amara Commercial focuses on commercial floor imagery, pricing collateral, and construction update visuals connected to the same Greater Noida West project context.",
     highlights: [
-      "Floor galleries surfaced through the legacy ACF image fields",
+      "Floor galleries remain visible through the current project media set",
       "Construction updates driven by category 6 posts",
-      "Direct commercial enquiry path preserved in the rebuilt route",
+      "Direct commercial enquiry path available on the current site",
     ],
     gallery: [
       "/legacy/theme-images/post/amara-spectrum1.jpg",
@@ -150,7 +150,7 @@ const currentProjects: Project[] = [
     tags: ["Commercial", "Construction updates", "Greater Noida West"],
     brochureUrl: "/legacy/uploads/2018/07/Amara-Brouchure.pdf",
     complianceNotes: [
-      "The legacy page queried category 6 posts for the Amara commercial construction update gallery.",
+      "The project route keeps the commercial construction-update visual record visible alongside the download path.",
     ],
   },
   {
@@ -162,10 +162,10 @@ const currentProjects: Project[] = [
     segment: "commercial",
     location: "Plot No-02 E, Sector-12 Greater Noida (West)",
     overview:
-      "The audited Central Commercial page surfaced an in-page price-list image, floor plan images for ground and first floor, and a construction update gallery presented through the legacy slider stack.",
+      "VictoryOne Central Commercial presents pricing collateral, floor references for ground and first floor, and construction update visuals tied to the same project context.",
     highlights: [
-      "Ground floor and first floor gallery preserved from the original page",
-      "Construction update imagery mapped from the legacy commercial gallery",
+      "Ground floor and first floor references remain available on the page",
+      "Construction update imagery remains visible in the commercial gallery",
       "Commercial enquiry route aligned with the modern contact flow",
     ],
     gallery: [
@@ -194,7 +194,7 @@ const currentProjects: Project[] = [
     tags: ["Commercial", "Floor plans", "Greater Noida West"],
     brochureUrl: "/legacy/uploads/2019/02/CENTRAL-BROUCHURE-19.pdf",
     complianceNotes: [
-      "The legacy page embedded a full-width commercial price-list graphic and static construction gallery slides.",
+      "The project route retains commercial pricing collateral and construction-update visuals for quick review.",
     ],
   },
 ];
@@ -233,7 +233,7 @@ const pastProjects: Project[] = pastProjectSeed.map(
     status: "completed",
     segment,
     location,
-    overview: `${name} is preserved in the legacy past-project archive as a completed delivery with location and approximate size information.`,
+    overview: `${name} appears in the delivered project record with location and approximate size information.`,
     highlights: [location, `Approx. Size: ${sizeLabel}`],
     gallery: [`/legacy/theme-images/post/${image}`],
     downloads: [],
@@ -246,3 +246,4 @@ const pastProjects: Project[] = pastProjectSeed.map(
 );
 
 export const projects: Project[] = [...currentProjects, ...pastProjects];
+

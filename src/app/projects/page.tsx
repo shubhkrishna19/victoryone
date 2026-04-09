@@ -37,15 +37,15 @@ export default function ProjectsPage() {
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{projects.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Total structured project records in the modern rebuild</p>
+            <p className="mt-2 text-sm text-foreground-muted">Total project records currently presented on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{currentCount}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Current residential and commercial routes sourced from legacy project pages</p>
+            <p className="mt-2 text-sm text-foreground-muted">Current residential and commercial project routes</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{completedCount}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Delivered archive entries sourced from the past-project template</p>
+            <p className="mt-2 text-sm text-foreground-muted">Delivered archive entries in the wider project record</p>
           </article>
         </Container>
       </Section>
@@ -57,7 +57,7 @@ export default function ProjectsPage() {
       <ContextualCTA
         eyebrow="Project Funnel"
         title="Move from shortlist to brochure, price list, or direct enquiry."
-        description="Every current project route preserves the legacy detail intent and now carries its own direct enquiry path with business and project context attached."
+        description="Every current project route carries its own direct enquiry path with business and project context attached."
         primaryCta={{ label: "Talk to Team", href: "/contact", ctaId: "projects-cta-contact" }}
         secondaryCta={{ label: "Request Callback", href: "/contact?intent=callback", ctaId: "projects-cta-callback" }}
         sectionId="projects.cta"

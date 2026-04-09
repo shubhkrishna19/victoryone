@@ -13,7 +13,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "VictoryOne | In-house construction and furnished living",
   description:
-    "Modern VictoryOne home route rebuilt from the audited legacy site with verified projects, trust signals, leadership context, and conversion paths.",
+    "VictoryOne presents furnished residential and commercial projects, leadership context, trust signals, and direct enquiry routes for Greater Noida West.",
   path: "/",
   image: "/legacy/theme-images/amara-park-view.jpg",
 });

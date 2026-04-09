@@ -20,9 +20,11 @@ export function SiteFooter() {
             className="h-12 w-auto brightness-0 invert"
           />
           <p className="mt-4 max-w-md text-sm leading-7 text-white/72">
-            The rebuild keeps VictoryOne’s audited projects, leadership, awards, testimonials, media, events, and contact flows in one maintainable and accessible front-end architecture.
+            VictoryOne&apos;s projects, leadership, awards, testimonials, media, events, and contact routes now live in one maintainable and accessible front-end experience.
           </p>
-          <p className="mt-4 text-sm text-white/64">In-house construction, furnished living, and delivery-focused trust signals remain the message spine across the site.</p>
+          <p className="mt-4 text-sm text-white/64">
+            In-house construction, furnished living, and delivery-focused trust signals remain the message spine across the site.
+          </p>
         </div>
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-[0.16em] text-white/72">Business</h3>
@@ -69,7 +71,7 @@ export function SiteFooter() {
             </Link>
           ))}
         </div>
-        <p>VictoryOne legacy content rebuilt for performance, accessibility, and maintainability.</p>
+        <p>VictoryOne site experience refined for performance, accessibility, and maintainability.</p>
       </div>
     </footer>
   );

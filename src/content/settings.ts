@@ -6,7 +6,7 @@ export const globalSettings: GlobalSettings = {
   siteUrl: SITE_URL,
   defaultTitle: "VictoryOne | In-house construction and furnished living",
   defaultDescription:
-    "VictoryOne rebuilds the legacy corporate experience around audited project, leadership, award, testimonial, media, event, career, and contact data from VictoryOne Central, Amara, and the broader group portfolio.",
+    "VictoryOne presents furnished residential and commercial projects, leadership context, awards, media, events, careers, and direct contact routes in one modern corporate experience.",
   email: "info@victoryone.in",
   phones: ["0120-4266606/14/28", "+91-9210992922"],
   socialLinks: [],
