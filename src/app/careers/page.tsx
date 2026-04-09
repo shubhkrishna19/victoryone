@@ -43,7 +43,7 @@ export default function CareersPage() {
             <ul className="mt-6 grid gap-3 text-sm leading-7 text-foreground-muted">
               <li>Current openings are focused on sales and front-office operations.</li>
               <li>Interview location is listed as H-56, Sector 63, Noida for the current openings.</li>
-              <li>Applications now move through a validated submission flow with direct routing to the hiring team.</li>
+              <li>Applications submitted here are reviewed by the hiring team with the relevant role details attached.</li>
             </ul>
           </article>
           <article className="panel">
@@ -63,7 +63,7 @@ export default function CareersPage() {
           <Heading
             eyebrow="Open Positions"
             title="Current openings"
-            description="Each role card shows the location, experience, qualifications, and key responsibilities currently published by VictoryOne."
+            description="Each role card lists the location, experience, qualifications, and key responsibilities shared by VictoryOne."
           />
           <div className="grid gap-6 lg:grid-cols-2">
             {jobs.map((job) => (
@@ -107,7 +107,7 @@ export default function CareersPage() {
           <article className="panel">
             <Heading
               eyebrow="Application"
-              title="Apply with the right role context"
+              title="Apply with the right role selected"
               description="Keep your details concise. The form validates as you go and sends your application directly to the hiring team."
             />
           </article>
@@ -117,8 +117,8 @@ export default function CareersPage() {
       <ContextualCTA
         eyebrow="Before You Apply"
         title="Want more context before you apply?"
-        description="Review leadership, browse projects, or contact the team if you want more context before sending your application."
-        primaryCta={{ label: "Review Leadership", href: "/leadership", ctaId: "careers-cta-leadership" }}
+        description="Meet the leadership team, browse the projects, or contact VictoryOne if you want more context before sending your application."
+        primaryCta={{ label: "Meet Leadership", href: "/leadership", ctaId: "careers-cta-leadership" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "careers-cta-contact" }}
         sectionId="careers.cta"
       />

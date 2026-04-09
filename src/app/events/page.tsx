@@ -28,13 +28,13 @@ export default function EventsPage() {
         description={routeCopy.events.description}
         image={events[0]?.image}
         primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "events-contact" }}
-        secondaryCta={{ label: "Review Awards", href: "/awards", ctaId: "events-awards" }}
+        secondaryCta={{ label: "View Awards", href: "/awards", ctaId: "events-awards" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{events.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Event records currently shown on the site</p>
+            <p className="mt-2 text-sm text-foreground-muted">Event moments featured on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Community</p>
@@ -45,7 +45,7 @@ export default function EventsPage() {
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">Next step</p>
             <p className="mt-2 text-sm text-foreground-muted">
-              Review these moments for context, then return to projects or contact for your next step.
+              Review these moments, then continue to projects or contact when you are ready to move forward.
             </p>
           </article>
         </Container>
@@ -53,7 +53,7 @@ export default function EventsPage() {
       <EventTimeline events={events} />
       <ContextualCTA
         eyebrow="Next Step"
-        title="Use the event timeline as context, then move to a clear next step."
+        title="See how the brand has shown up over time, then continue where you need to."
         description="After reviewing community and brand moments, most visitors either compare projects or contact the team."
         primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "events-cta-projects" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "events-cta-contact" }}

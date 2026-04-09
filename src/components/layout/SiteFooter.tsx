@@ -71,7 +71,7 @@ export function SiteFooter() {
             </Link>
           ))}
         </div>
-        <p>Review projects, compare options, and connect with the team directly.</p>
+        <p>Browse projects, compare options, and connect with the team directly.</p>
       </div>
     </footer>
   );

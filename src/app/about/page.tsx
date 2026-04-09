@@ -26,7 +26,7 @@ export default function AboutPage() {
         title={routeCopy.about.title}
         description={routeCopy.about.description}
         image="/legacy/theme-images/about1.jpg"
-        primaryCta={{ label: "Review Projects", href: "/projects", ctaId: "about-projects" }}
+        primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "about-projects" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "about-contact" }}
       />
       <Section>

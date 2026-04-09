@@ -30,15 +30,15 @@ export const routeCopy = {
   },
   businesses: {
     eyebrow: "Business Overview",
-    title: "VictoryOne Group and its active residential and commercial portfolio.",
+    title: "VictoryOne Group, its focus areas, and its current projects.",
     description:
       "Review the core VictoryOne profile, its focus areas, and the projects tied directly to the VictoryOne name.",
   },
   projects: {
     eyebrow: "Projects",
-    title: "Current projects, commercial inventory, and delivered portfolio.",
+    title: "Homes, commercial spaces, and delivered work.",
     description:
-      "Explore Amara, Central, commercial inventory, brochures, price lists, and delivered projects through one searchable portfolio.",
+      "Explore Amara, Central, commercial spaces, brochures, price lists, and delivered projects through one searchable collection.",
   },
   leadership: {
     eyebrow: "Leadership",
@@ -48,21 +48,21 @@ export const routeCopy = {
   },
   awards: {
     eyebrow: "Awards",
-    title: "Recognition records from the VictoryOne archive.",
+    title: "Recognitions received by VictoryOne over the years.",
     description:
-      "This page brings together dated award references and supporting visuals already present in the VictoryOne record.",
+      "This page brings together dated award references and supporting visuals already present in VictoryOne records.",
   },
   media: {
     eyebrow: "Media",
-    title: "Press references and newspaper coverage from the VictoryOne archive.",
+    title: "Press references and newspaper coverage for VictoryOne.",
     description:
       "Review dated newspaper and magazine coverage currently available in VictoryOne records.",
   },
   events: {
     eyebrow: "Events",
-    title: "Community and brand moments from the VictoryOne archive.",
+    title: "Community and brand moments around VictoryOne.",
     description:
-      "This page keeps archived event photographs and dates in one chronological view.",
+      "This page keeps event photographs and dates together in one chronological view.",
   },
   careers: {
     eyebrow: "Careers",
@@ -153,7 +153,7 @@ export const finalCta = {
   eyebrow: "Ready to Talk?",
   title: "Take the next step with the VictoryOne team.",
   description:
-    "Browse projects for specifics, review the leadership story for context, or get in touch directly if you already know what you need.",
+    "Browse projects for specifics, meet the leadership team, or get in touch directly if you already know what you need.",
   primaryCta: contactCta,
   secondaryCta: projectsCta,
 };

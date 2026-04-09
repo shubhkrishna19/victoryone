@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Businesses | VictoryOne Group overview",
   description:
-    "VictoryOne Group overview covering residential and commercial focus areas, credibility markers, and project context.",
+    "VictoryOne Group overview covering residential and commercial focus areas, credibility markers, and linked projects.",
   path: "/businesses",
   image: "/legacy/theme-images/logo.png",
 });

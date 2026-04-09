@@ -12,7 +12,7 @@ import { finalCta, routeCopy } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Projects | VictoryOne current and delivered portfolio",
+  title: "Projects | VictoryOne homes, commercial spaces, and delivered work",
   description:
     "Search, filter, and review VictoryOne residential, commercial, and delivered projects in one place.",
   path: "/projects",
@@ -31,13 +31,13 @@ export default function ProjectsPage() {
         description={routeCopy.projects.description}
         image="/legacy/theme-images/project-homepg-central.jpg"
         primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "projects-contact" }}
-        secondaryCta={{ label: "Review Leadership", href: "/leadership", ctaId: "projects-leadership" }}
+        secondaryCta={{ label: "Meet Leadership", href: "/leadership", ctaId: "projects-leadership" }}
       />
       <Section>
         <Container className="grid gap-4 md:grid-cols-3">
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{projects.length}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Projects currently visible in the portfolio</p>
+            <p className="mt-2 text-sm text-foreground-muted">Projects and delivered works shown on the site</p>
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{currentCount}</p>
@@ -45,7 +45,7 @@ export default function ProjectsPage() {
           </article>
           <article className="panel">
             <p className="text-3xl font-semibold text-foreground">{completedCount}</p>
-            <p className="mt-2 text-sm text-foreground-muted">Delivered projects in the archive</p>
+            <p className="mt-2 text-sm text-foreground-muted">Delivered works and past projects</p>
           </article>
         </Container>
       </Section>
@@ -55,7 +55,7 @@ export default function ProjectsPage() {
         </Container>
       </Section>
       <ContextualCTA
-        eyebrow="Ready to Reach Out?"
+        eyebrow="Need Guidance?"
         title="Ready to shortlist a project or request details?"
         description="Each live project page includes downloads and a direct enquiry form so you can continue with the right project details in place."
         primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "projects-cta-contact" }}

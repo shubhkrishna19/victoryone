@@ -13,7 +13,7 @@ import { finalCta, routeCopy } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Media | VictoryOne press and newspaper archive",
+  title: "Media | VictoryOne press and newspaper coverage",
   description:
     "Newspaper coverage and media references collected in a dedicated VictoryOne press page.",
   path: "/media",
@@ -29,7 +29,7 @@ export default function MediaPage() {
         description={routeCopy.media.description}
         image={mediaEntries[0]?.image}
         primaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "media-contact" }}
-        secondaryCta={{ label: "Review Awards", href: "/awards", ctaId: "media-awards" }}
+        secondaryCta={{ label: "View Awards", href: "/awards", ctaId: "media-awards" }}
       />
       <Section>
         <Container className="grid gap-6 lg:grid-cols-[1fr_1fr]">
@@ -37,13 +37,13 @@ export default function MediaPage() {
             <Heading
               eyebrow="Press at a glance"
               title="Press references organised for quick review"
-              description="Review the publication references currently featured here, then continue into projects or contact."
+              description="Review the publication references featured here, then continue into projects or contact."
             />
           </article>
           <article className="panel">
             <p className="eyebrow">What you can review</p>
             <ul className="mt-4 grid gap-3 text-sm leading-7 text-foreground-muted">
-              <li>Each entry keeps the publication name and archive date visible.</li>
+              <li>Each entry keeps the publication name and original date visible.</li>
               <li>Leadership coverage is shown alongside newspaper references for one continuous press record.</li>
               <li>Each media card links back to a relevant next step.</li>
             </ul>
@@ -53,8 +53,8 @@ export default function MediaPage() {
       <MediaGrid media={mediaEntries} />
       <ContextualCTA
         eyebrow="Next Step"
-        title="Use press coverage as context, then move into projects or contact."
-        description="Media coverage helps you understand the brand story. The practical next step is to review a project or speak with the team."
+        title="Use press coverage to understand the brand, then move into projects or contact."
+        description="Media coverage helps you understand the brand story. The next practical step is to review a project or speak with the team."
         primaryCta={{ label: "Browse Projects", href: "/projects", ctaId: "media-cta-projects" }}
         secondaryCta={{ label: "Speak with the Team", href: "/contact", ctaId: "media-cta-contact" }}
         sectionId="media.cta"

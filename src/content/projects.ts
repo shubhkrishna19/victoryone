@@ -123,7 +123,7 @@ const currentProjects: Project[] = [
     segment: "commercial",
     location: "GH-05 C, Sector-16, Greater Noida (West)",
     overview:
-      "VictoryOne Amara Commercial focuses on commercial floor imagery, pricing collateral, and construction update visuals connected to the same Greater Noida West project context.",
+      "VictoryOne Amara Commercial focuses on commercial floor imagery, pricing material, and construction update visuals connected to the same Greater Noida West development.",
     highlights: [
       "Floor galleries remain visible through the current project media set",
       "Construction updates driven by category 6 posts",
@@ -162,7 +162,7 @@ const currentProjects: Project[] = [
     segment: "commercial",
     location: "Plot No-02 E, Sector-12 Greater Noida (West)",
     overview:
-      "VictoryOne Central Commercial presents pricing collateral, floor references for ground and first floor, and construction update visuals tied to the same project context.",
+      "VictoryOne Central Commercial presents pricing material, floor references for ground and first floor, and construction update visuals tied to the same development.",
     highlights: [
       "Ground floor and first floor references remain available on the page",
       "Construction update imagery remains visible in the commercial gallery",

@@ -67,7 +67,7 @@ export const leadershipEntries: LeadershipEntry[] = [
 export const leadershipTimeline = [
   {
     year: "1998",
-    label: "The delivered project record begins with housing and institutional work listed in the past-project archive.",
+    label: "The earlier delivery record begins with housing and institutional work dating back to 1998.",
   },
   { year: "2008", label: "Victory Crossroads is recorded as delivered at Sector 143, Noida." },
   {
